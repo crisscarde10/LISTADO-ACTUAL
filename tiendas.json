@@ -389,8 +389,8 @@
       "BENITES NAMAY DAVID ANDY"
     ],
     "direccion": "AV. VICTOR RAUL HAYA DE LA TORRE S/N SECTOR PAMPA GRANDE",
-    "latitud": null,
-    "longitud": null
+    "latitud": -7.61167374698464,
+    "longitud": -78.0582972354661
   },
   {
     "nombre": "CARSA_CASAGRANDE",
@@ -770,8 +770,8 @@
       "VILCHEZ APOLINARIO DANNY CESAR"
     ],
     "direccion": "Avenida Marginal 528",
-    "latitud": null,
-    "longitud": null
+    "latitud": -10.9274973657516,
+    "longitud": -74.873676186797
   },
   {
     "nombre": "CARSA MOTOS_PUCALLPA",
@@ -840,8 +840,8 @@
       "QUISPE FERMIN KENNY ROGERS"
     ],
     "direccion": "Av. Nicolás Ayllón N° 5574",
-    "latitud": null,
-    "longitud": null
+    "latitud": -12.0281588245796,
+    "longitud": -76.9229559050527
   },
   {
     "nombre": "CARSA_AYACUCHO",
@@ -868,8 +868,8 @@
       "RIOS PRESENTACION DIANA HEIDI"
     ],
     "direccion": "JIRÓN SAN CRISTOBAL MZ L LOTE 45A SECTOR CENTRO DISTRITO CHAUPIMARCA",
-    "latitud": null,
-    "longitud": null
+    "latitud": -10.685663511639,
+    "longitud": -76.2568270550622
   },
   {
     "nombre": "CARSA_HUANCAYO",
@@ -1222,8 +1222,8 @@
     "gerente": "SANCHEZ CABRERA JESUS",
     "funcionarios": [],
     "direccion": "Av. Venezuela 308",
-    "latitud": null,
-    "longitud": null
+    "latitud": -13.6344601765653,
+    "longitud": -72.8854484976774
   },
   {
     "nombre": "CARSA EXPRESS_URUBAMBA",
@@ -1233,9 +1233,9 @@
     "distrito": "Urubamba",
     "gerente": "CHOQUE GONZA MILTON ALEX",
     "funcionarios": [],
-    "direccion": "av 9 de novimebre s/n",
-    "latitud": null,
-    "longitud": null
+    "direccion": "av 9 de noviembre s/n",
+    "latitud": -13.3075862588988,
+    "longitud": -72.1143437848723
   },
   {
     "nombre": "CARSA MOTOS_IQUITOS",
@@ -1363,8 +1363,8 @@
       "APAZA LANZA DUBER PELAYO"
     ],
     "direccion": "JR. MARIANO NUÑEZ 654, JULIACA 21104",
-    "latitud": null,
-    "longitud": null
+    "latitud": -15.4918529542804,
+    "longitud": -70.1328061104253
   },
   {
     "nombre": "CARSA_MEGA SAN JUAN",
@@ -1434,7 +1434,7 @@
       "QUINTANILLA MENDEZ WILSON ENRIQUE"
     ],
     "direccion": "AV GARCILASO 505",
-    "latitud": null,
-    "longitud": null
+    "latitud": -13.5226852908578,
+    "longitud": -71.9693948045849
   }
 ]
