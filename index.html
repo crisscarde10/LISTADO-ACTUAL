@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buscador de Tiendas</title>
+  <style>
+    :root{
+      --red:#b91c1c;
+      --red-dark:#991b1b;
+      --red-soft:#fef2f2;
+      --border:#e5e7eb;
+      --text:#111827;
+      --muted:#6b7280;
+      --bg:#f8fafc;
+      --card:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+    }
+    .topbar{
+      background:#fff;
+      border-bottom:1px solid var(--border);
+      box-shadow:0 1px 2px rgba(0,0,0,.05);
+      position:sticky;
+      top:0;
+      z-index:20;
+    }
+    .container{
+      max-width:1200px;
+      margin:0 auto;
+      padding:0 24px;
+    }
+    .header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:16px;
+      padding:16px 0;
+    }
+    .brand{display:flex;align-items:center;gap:16px}
+    .logo-wrap{
+      width:64px;height:64px;border-radius:18px;background:var(--red);
+      display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(185,28,28,.18);
+      overflow:hidden;
+    }
+    .logo-wrap img{width:42px;height:auto}
+    .eyebrow{
+      font-size:11px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--red);
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    h1{margin:0;font-size:30px}
+    .counter{
+      background:#fff5f5;
+      color:var(--red-dark);
+      border:1px solid #fecaca;
+      border-radius:18px;
+      padding:12px 16px;
+      min-width:145px;
+      text-align:center;
+    }
+    .counter small{
+      display:block;
+      font-size:11px;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      color:#991b1b;
+      margin-bottom:4px;
+      font-weight:700;
+    }
+    .counter strong{font-size:30px;line-height:1}
+    .hero{
+      margin:28px 0 22px;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:28px;
+      padding:28px;
+      box-shadow:0 1px 2px rgba(0,0,0,.04);
+    }
+    .hero h2{margin:6px 0 8px;font-size:34px}
+    .hero p{margin:0;color:var(--muted);max-width:860px;line-height:1.6}
+    .filters{
+      display:grid;
+      grid-template-columns:2fr 1fr 1fr 1fr;
+      gap:14px;
+      margin-top:24px;
+    }
+    .field label{
+      display:block;
+      margin:0 0 8px;
+      font-size:13px;
+      font-weight:700;
+      color:#374151;
+    }
+    .field input{
+      width:100%;
+      border:1px solid #d1d5db;
+      border-radius:16px;
+      padding:14px 16px;
+      font-size:15px;
+      outline:none;
+      background:white;
+    }
+    .field input:focus{
+      border-color:var(--red);
+      box-shadow:0 0 0 4px rgba(185,28,28,.08);
+    }
+    .toolbar{
+      display:flex;
+      gap:12px;
+      align-items:center;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    button{
+      border:none;
+      cursor:pointer;
+      border-radius:16px;
+      padding:13px 18px;
+      font-size:14px;
+      font-weight:700;
+    }
+    .btn-dark{background:#111827;color:#fff}
+    .hint{
+      border:1px solid #fecaca;
+      background:var(--red-soft);
+      color:#991b1b;
+      border-radius:16px;
+      padding:12px 14px;
+      font-size:14px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:18px;
+      margin:24px 0 36px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:26px;
+      padding:22px;
+      box-shadow:0 2px 6px rgba(0,0,0,.04);
+    }
+    .card:hover{transform:translateY(-1px);box-shadow:0 10px 20px rgba(0,0,0,.06)}
+    .bubble{
+      display:inline-flex;
+      align-items:center;
+      background:var(--red-soft);
+      color:var(--red-dark);
+      border:1px solid #fecaca;
+      border-radius:999px;
+      padding:7px 12px;
+      font-size:11px;
+      font-weight:700;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+    }
+    .store-title{margin:14px 0 0;font-size:22px;line-height:1.25}
+    .block{
+      background:#f8fafc;
+      border-radius:18px;
+      padding:14px 16px;
+      margin-top:14px;
+    }
+    .label{
+      font-size:11px;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      color:#6b7280;
+      font-weight:700;
+      margin-bottom:8px;
+    }
+    .value{line-height:1.55}
+    .manager{font-size:16px;font-weight:700}
+    .chips{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{
+      padding:8px 12px;
+      border-radius:999px;
+      background:#fff;
+      border:1px solid var(--border);
+      font-size:14px;
+      font-weight:600;
+    }
+    .meta{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:10px;
+      margin-top:14px;
+    }
+    .meta .mini{
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:12px;
+    }
+    .mini .k{
+      font-size:11px;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      color:#6b7280;
+      font-weight:700;
+    }
+    .mini .v{
+      margin-top:6px;
+      font-size:14px;
+      font-weight:700;
+      line-height:1.4;
+    }
+    .map-btn{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      margin-top:14px;
+      background:var(--red);
+      color:#fff;
+      text-decoration:none;
+      padding:12px 16px;
+      border-radius:16px;
+      font-weight:700;
+      font-size:14px;
+    }
+    .map-btn:hover{background:var(--red-dark)}
+    .empty{
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:28px;
+      padding:36px;
+      text-align:center;
+      color:#374151;
+      display:none;
+    }
+    .footer{
+      color:#6b7280;
+      font-size:12px;
+      text-align:center;
+      padding:0 0 28px;
+    }
+    @media (max-width: 1024px){
+      .filters{grid-template-columns:1fr 1fr}
+      .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    }
+    @media (max-width: 720px){
+      .container{padding:0 16px}
+      .header{align-items:flex-start;flex-direction:column}
+      .hero{padding:20px}
+      .hero h2{font-size:28px}
+      .filters{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr}
+      .meta{grid-template-columns:1fr}
+      h1{font-size:24px}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container header">
+      <div class="brand">
+        <div class="logo-wrap">
+          <img src="logo.png" alt="Logo" />
+        </div>
+        <div>
+          <div class="eyebrow">Directorio corporativo</div>
+          <h1>Buscador de Tiendas</h1>
+        </div>
+      </div>
+      <div class="counter">
+        <small>Mostrando</small>
+        <strong id="visibleCount">0</strong>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="hero">
+      <div class="eyebrow" style="color:#6b7280">Panel de filtros</div>
+      <h2>Consulta rápida de tiendas</h2>
+      <p>
+        Busca por departamento, provincia, distrito, nombre de tienda, gerente, funcionario o dirección.
+        La búsqueda reconoce mayúsculas, minúsculas y tildes sin afectar los resultados.
+      </p>
+
+      <div class="filters">
+        <div class="field">
+          <label for="general">Búsqueda general</label>
+          <input id="general" type="text" placeholder="Tienda, gerente, funcionario o dirección" />
+        </div>
+        <div class="field">
+          <label for="departamento">Departamento</label>
+          <input id="departamento" list="departamentos" type="text" placeholder="Escribe o selecciona" />
+          <datalist id="departamentos"></datalist>
+        </div>
+        <div class="field">
+          <label for="provincia">Provincia</label>
+          <input id="provincia" list="provincias" type="text" placeholder="Escribe o selecciona" />
+          <datalist id="provincias"></datalist>
+        </div>
+        <div class="field">
+          <label for="distrito">Distrito</label>
+          <input id="distrito" list="distritos" type="text" placeholder="Escribe o selecciona" />
+          <datalist id="distritos"></datalist>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <button class="btn-dark" id="clearBtn">Limpiar filtros</button>
+        <div class="hint">Puedes buscar usando mayúsculas, minúsculas o tildes sin diferencia.</div>
+      </div>
+    </section>
+
+    <section class="grid" id="cards"></section>
+    <section class="empty" id="emptyState">
+      <h3>No se encontraron tiendas</h3>
+      <p>Ajusta los filtros o prueba con otra forma de búsqueda.</p>
+    </section>
+    <div class="footer">Archivo listo para subir como sitio estático en Netlify, GitHub Pages o Cloudflare Pages.</div>
+  </main>
+
+<script>
+  const normalizeText = (text) =>
+    String(text || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .trim();
+
+  const cards = document.getElementById("cards");
+  const emptyState = document.getElementById("emptyState");
+  const visibleCount = document.getElementById("visibleCount");
+
+  const generalInput = document.getElementById("general");
+  const departamentoInput = document.getElementById("departamento");
+  const provinciaInput = document.getElementById("provincia");
+  const distritoInput = document.getElementById("distrito");
+  const clearBtn = document.getElementById("clearBtn");
+
+  const departamentosList = document.getElementById("departamentos");
+  const provinciasList = document.getElementById("provincias");
+  const distritosList = document.getElementById("distritos");
+
+  let stores = [];
+
+  const optionHTML = (items) => items.map(item => `<option value="${item.replace(/"/g,'&quot;')}"></option>`).join("");
+
+  function fillLists(data){
+    const departamentos = [...new Set(data.map(t => t.departamento).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es'));
+    const dep = normalizeText(departamentoInput.value);
+    const provincias = [...new Set(
+      data
+        .filter(t => !dep || normalizeText(t.departamento).includes(dep))
+        .map(t => t.provincia)
+        .filter(Boolean)
+    )].sort((a,b)=>a.localeCompare(b,'es'));
+
+    const prov = normalizeText(provinciaInput.value);
+    const distritos = [...new Set(
+      data
+        .filter(t => (!dep || normalizeText(t.departamento).includes(dep)) && (!prov || normalizeText(t.provincia).includes(prov)))
+        .map(t => t.distrito)
+        .filter(Boolean)
+    )].sort((a,b)=>a.localeCompare(b,'es'));
+
+    departamentosList.innerHTML = optionHTML(departamentos);
+    provinciasList.innerHTML = optionHTML(provincias);
+    distritosList.innerHTML = optionHTML(distritos);
+  }
+
+  function render(){
+    const general = normalizeText(generalInput.value);
+    const dep = normalizeText(departamentoInput.value);
+    const prov = normalizeText(provinciaInput.value);
+    const dist = normalizeText(distritoInput.value);
+
+    fillLists(stores);
+
+    const filtered = stores.filter(t => {
+      const haystack = normalizeText([
+        t.nombre,
+        t.region,
+        t.departamento,
+        t.provincia,
+        t.distrito,
+        t.gerente,
+        ...(Array.isArray(t.funcionarios) ? t.funcionarios : []),
+        t.direccion
+      ].join(" "));
+      return (!general || haystack.includes(general))
+        && (!dep || normalizeText(t.departamento).includes(dep))
+        && (!prov || normalizeText(t.provincia).includes(prov))
+        && (!dist || normalizeText(t.distrito).includes(dist));
+    });
+
+    visibleCount.textContent = filtered.length;
+    cards.innerHTML = filtered.map(t => {
+      const funcionarios = Array.isArray(t.funcionarios) ? t.funcionarios : [];
+      const href = (t.latitud !== null && t.latitud !== "" && t.longitud !== null && t.longitud !== "")
+        ? `https://www.google.com/maps?q=${t.latitud},${t.longitud}`
+        : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(t.direccion || "")}`;
+
+      return `
+        <article class="card">
+          <span class="bubble">${t.region || "Sin región"}</span>
+          <h3 class="store-title">${t.nombre || "Tienda sin nombre"}</h3>
+
+          <div class="block">
+            <div class="label">Gerente de tienda</div>
+            <div class="value manager">${t.gerente || "No registrado"}</div>
+          </div>
+
+          <div class="block">
+            <div class="label">Funcionarios de tienda</div>
+            <div class="chips">
+              ${funcionarios.length
+                ? funcionarios.map(f => `<span class="chip">${f}</span>`).join("")
+                : `<span class="value" style="color:#6b7280">No registrado</span>`}
+            </div>
+          </div>
+
+          <div class="block">
+            <div class="label">Dirección</div>
+            <div class="value">${t.direccion || "No registrada"}</div>
+            <a class="map-btn" href="${href}" target="_blank" rel="noreferrer">📍 Ver ubicación</a>
+          </div>
+
+          <div class="meta">
+            <div class="mini">
+              <div class="k">Departamento</div>
+              <div class="v">${t.departamento || "-"}</div>
+            </div>
+            <div class="mini">
+              <div class="k">Provincia</div>
+              <div class="v">${t.provincia || "-"}</div>
+            </div>
+            <div class="mini">
+              <div class="k">Distrito</div>
+              <div class="v">${t.distrito || "-"}</div>
+            </div>
+          </div>
+        </article>
+      `;
+    }).join("");
+
+    emptyState.style.display = filtered.length ? "none" : "block";
+  }
+
+  [generalInput, departamentoInput, provinciaInput, distritoInput].forEach(el => {
+    el.addEventListener("input", render);
+  });
+
+  clearBtn.addEventListener("click", () => {
+    generalInput.value = "";
+    departamentoInput.value = "";
+    provinciaInput.value = "";
+    distritoInput.value = "";
+    render();
+  });
+
+  fetch("./tiendas.json")
+    .then(r => r.json())
+    .then(data => {
+      stores = Array.isArray(data) ? data : [];
+      render();
+    })
+    .catch(() => {
+      stores = [];
+      render();
+      emptyState.style.display = "block";
+      emptyState.innerHTML = "<h3>No se pudo cargar la base de tiendas</h3><p>Verifica que el archivo <strong>tiendas.json</strong> esté en la misma carpeta que el <strong>index.html</strong>.</p>";
+    });
+</script>
+</body>
+</html>
