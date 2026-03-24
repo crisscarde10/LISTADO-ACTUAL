@@ -1,164 +1,125 @@
 [
   {
-    "nombre": "CARSA_CHULUCANAS",
-    "region": "REGION 1",
-    "departamento": "Piura",
-    "provincia": "Morropon",
-    "distrito": "Chulucanas",
-    "gerente": "CERNA BENAVIDES FRANK ALEXANDER",
-    "funcionarios": [
-      "MAZA YARLEQUE SEGUNDO JORGE"
-    ],
-    "direccion": "Calle Lambayeque 398, esquina con Cusco",
-    "latitud": -5.09609840868098,
-    "longitud": -80.1604675108422
+    "nombre": "CARSA EXPRESS_ABANCAY",
+    "region": "REGION 7",
+    "departamento": "Abancay",
+    "provincia": "Abancay",
+    "distrito": "Las americas",
+    "gerente": "SANCHEZ CABRERA JESUS",
+    "funcionarios": [],
+    "direccion": "Av. Venezuela 308",
+    "latitud": -13.6344601765653,
+    "longitud": -72.8854484976774
   },
   {
-    "nombre": "CARSA_LA UNION",
-    "region": "REGION 1",
-    "departamento": "Piura",
-    "provincia": "Piura",
-    "distrito": "La Union",
-    "gerente": "COVEÑAS IPANAQUE WILFREDO",
-    "funcionarios": [
-      "REATEGUI SANDOVAL JESUS MANUEL",
-      "MORALES  AQUINO  MIGUEL ENRIQUE"
-    ],
-    "direccion": "CALLE LIMA 227",
-    "latitud": -5.40032027619994,
-    "longitud": -80.7425955601298
+    "nombre": "CARSA EXPRESS_URUBAMBA",
+    "region": "REGION 7",
+    "departamento": "Cusco",
+    "provincia": "Urubamba",
+    "distrito": "Urubamba",
+    "gerente": "CHOQUE GONZA MILTON ALEX",
+    "funcionarios": [],
+    "direccion": "av 9 de noviembre s/n",
+    "latitud": -13.3075862588988,
+    "longitud": -72.1143437848723
   },
   {
-    "nombre": "CARSA_PAITA",
-    "region": "REGION 1",
-    "departamento": "Piura",
-    "provincia": "Paita",
-    "distrito": "Paita",
-    "gerente": "CALLE ARRAIZA LUIS EDILBERTO",
+    "nombre": "CARSA MOTOS_CHIMBOTE",
+    "region": "REGION 3",
+    "departamento": "Ancash",
+    "provincia": "Santa",
+    "distrito": "Chimbote",
+    "gerente": "MENDIETA LAUREANO CRISTHIAM RENATO",
     "funcionarios": [
-      "ACARO CORDOVA JOHANNA VANESSA"
+      "JAUREGUI URDANIVIA RICARDO KELLER"
     ],
-    "direccion": "Jr. Jorge  Chávez 300",
-    "latitud": -4.91127131139738,
-    "longitud": -81.059164011049
+    "direccion": "AV. JOSE GALVEZ 265",
+    "latitud": -9.07669116393516,
+    "longitud": -78.5903159387866
   },
   {
-    "nombre": "CARSA_PIURA",
-    "region": "REGION 1",
-    "departamento": "Piura",
-    "provincia": "Piura",
-    "distrito": "Piura",
-    "gerente": "SAAVEDRA VASQUEZ JULINO SINECIO",
+    "nombre": "CARSA MOTOS_IQUITOS",
+    "region": "REGION 7",
+    "departamento": "Loreto",
+    "provincia": "Maynas",
+    "distrito": "Iquitos",
+    "gerente": "CHONG YALTA JUANA",
     "funcionarios": [
-      "NAVARRO RUFINO JEANCARLOS EDGARDO",
-      "MONTENEGRO NAMUCHE KAREM JOHANA",
-      "DIAZ MENDOZA MARITZA",
-      "ZEVALLOS RUIZ JULIO CESAR"
+      "GRANDEZ RAMIREZ GLENDY LESLY"
     ],
-    "direccion": "AV. LORETO 640",
-    "latitud": -5.1930830985144,
-    "longitud": -80.6298696301382
+    "direccion": "JR. ARICA 253",
+    "latitud": -3.74981059649518,
+    "longitud": -73.2453137202866
   },
   {
-    "nombre": "CARSA_PIURA GRAU",
-    "region": "REGION 1",
-    "departamento": "Piura",
-    "provincia": "Piura",
-    "distrito": "Piura",
-    "gerente": "SILVA HUMBO DORIS ISABEL",
+    "nombre": "CARSA MOTOS_PACASMAYO",
+    "region": "REGION 3",
+    "departamento": "La Libertad",
+    "provincia": "Pacasmayo",
+    "distrito": "Pacasmayo",
+    "gerente": "ENCARGADA-COLLAO CABANILLAS JANNELY KARINA",
     "funcionarios": [
-      "MANRIQUE MENDOZA JUAN ALBERTO"
+      "LOPEZ LAU LUCIANA MARIA"
     ],
-    "direccion": "AV. GRAU 299",
-    "latitud": -5.19588889843332,
-    "longitud": -80.6284008162352
+    "direccion": "CAL. ADOLFO KING 69",
+    "latitud": -7.40101910723454,
+    "longitud": -79.5696682990111
   },
   {
-    "nombre": "CARSA_SECHURA",
-    "region": "REGION 1",
-    "departamento": "Piura",
-    "provincia": "Sechura",
-    "distrito": "Sechura",
-    "gerente": "CORREA SABA MIGUEL JESUS",
+    "nombre": "CARSA MOTOS_PICHANAQUI",
+    "region": "REGION 5",
+    "departamento": "Junin",
+    "provincia": "Chanchamayo",
+    "distrito": "Pichanaqui",
+    "gerente": "CONTRERAS ASENCIO ESAU AMOS",
     "funcionarios": [
-      "PAZO IMAN SONIA ELIZABETH"
+      "VILCHEZ APOLINARIO DANNY CESAR"
     ],
-    "direccion": "Calle San Martin N° 314 Cent. Sechura",
-    "latitud": -5.55533988245001,
-    "longitud": -80.8226577184171
+    "direccion": "Avenida Marginal 528",
+    "latitud": -10.9274973657516,
+    "longitud": -74.873676186797
   },
   {
-    "nombre": "CARSA_SULLANA",
-    "region": "REGION 1",
-    "departamento": "Piura",
-    "provincia": "Sullana",
-    "distrito": "Sullana",
-    "gerente": "CARO BECERRA CONSUELO",
+    "nombre": "CARSA MOTOS_PUCALLPA",
+    "region": "REGION 5",
+    "departamento": "Ucayali",
+    "provincia": "Coronel Portillo",
+    "distrito": "Calleria",
+    "gerente": "HINOSTROZA ZUMAETA LUIS ALEXANDER",
     "funcionarios": [
-      "ESPINOZA VALDIVIEZO DIEGO ALONSO",
-      "VIDAL ALAMEDA JENNY GLORIA"
+      "MOZOMBITE RIOS FERNANDO JHEEYN"
     ],
-    "direccion": "CAL. SAN MARTIN 761",
-    "latitud": -4.88800913806236,
-    "longitud": -80.6870966805597
+    "direccion": "Jr Coronel Portillo 696, Intersencion C portillo y 7 de Junio",
+    "latitud": -8.38726215993706,
+    "longitud": -74.5308048291047
   },
   {
-    "nombre": "CARSA_TALARA CIVICO",
-    "region": "REGION 1",
-    "departamento": "Piura",
-    "provincia": "Talara",
-    "distrito": "Talara",
-    "gerente": "OLAYA VALDIVIEZO VICTOR RAUL",
+    "nombre": "CARSA MOTOS_PUERTO MALDONADO",
+    "region": "REGION 7",
+    "departamento": "Madre de Dios",
+    "provincia": "Tambopata",
+    "distrito": "Tambopata",
+    "gerente": "VELARDE TORRES JULIO CESAR",
     "funcionarios": [
-      "LIZBETH YANNINA QUINO QUINO"
+      "VARGAS ZAVALA DANIEL EVENESER"
     ],
-    "direccion": "Centro Cívico N° 155 (Ref. Entre Bco. Crédito y Bco. Continental)",
-    "latitud": -4.57909633731373,
-    "longitud": -81.270775632603
+    "direccion": "Av. Dos de Mayo 1358",
+    "latitud": -12.5970221544939,
+    "longitud": -69.1795532352966
   },
   {
-    "nombre": "CARSA_TAMBOGRANDE CENTRO",
-    "region": "REGION 1",
-    "departamento": "Piura",
-    "provincia": "Piura",
-    "distrito": "Tambogrande",
-    "gerente": "BERECHE QUINTANA STALIN MARTIN",
+    "nombre": "CARSA MOTOS_SATIPO",
+    "region": "REGION 5",
+    "departamento": "Junin",
+    "provincia": "Satipo",
+    "distrito": "Satipo",
+    "gerente": "CORDOVA RAMIREZ DRAUSIN ILBERT",
     "funcionarios": [
-      "CHERRES GARCIA YADIRA"
+      "VALDIVIA PAREDES ANTHONY BRAYHAN"
     ],
-    "direccion": "JR. TUMBES 760",
-    "latitud": -4.92982172146295,
-    "longitud": -80.3429081421873
-  },
-  {
-    "nombre": "CARSA_TUMBES BOLIVAR",
-    "region": "REGION 1",
-    "departamento": "Tumbes",
-    "provincia": "Tumbes",
-    "distrito": "Tumbes",
-    "gerente": "CALDERON BARRIENTOS CARMENCITA YANINA",
-    "funcionarios": [
-      "TEJADA SILVA LUIS ENRIQUE",
-      "QUENECHE COLLAZOS NALLESDA NAYDELIN",
-      "AVILA ZURITA ANA FABIOLA"
-    ],
-    "direccion": "CAL. BOLIVAR 228",
-    "latitud": -3.57005262347563,
-    "longitud": -80.4585908515608
-  },
-  {
-    "nombre": "GMG_LA UNION",
-    "region": "REGION 1",
-    "departamento": "Piura",
-    "provincia": "Piura",
-    "distrito": "La Union",
-    "gerente": "SILVA MECHATO DELY JAKELY",
-    "funcionarios": [
-      "SILUPU ANCAJIMA PAOLA JAHAIRA"
-    ],
-    "direccion": "Lote 18, Mz. 21, Centro Poblado Barrio La Capilla - (Cdra. 8 Calle Lima, frente al mercado UNION /por MIBANCO)",
-    "latitud": -5.40032027619994,
-    "longitud": -80.7425955601298
+    "direccion": "Jr. Francisco Irazola Nº 673-675",
+    "latitud": -11.2572778213237,
+    "longitud": -74.6400523978239
   },
   {
     "nombre": "CARSA MOTOS_TARAPOTO",
@@ -177,6 +138,20 @@
     "longitud": -76.3621526357146
   },
   {
+    "nombre": "CARSA MOTOS_TOCACHE",
+    "region": "REGION 5",
+    "departamento": "San Martin",
+    "provincia": "Tocache",
+    "distrito": "Tocache",
+    "gerente": "ALVARADO MEDINA CLARIBEL",
+    "funcionarios": [
+      "VILLANUEVA MUÑOZ LIMBERTA"
+    ],
+    "direccion": "JR. SAN JUAN 685",
+    "latitud": -8.19004753965451,
+    "longitud": -76.5112258204571
+  },
+  {
     "nombre": "CARSA MOTOS_YURIMAGUAS",
     "region": "REGION 2",
     "departamento": "Loreto",
@@ -184,199 +159,97 @@
     "distrito": "Yurimaguas",
     "gerente": "GOMEZ CELIS FERNANDO",
     "funcionarios": [
-      "RICHARD VARGAS SHUPINGAHUA"
+      "RICHARD VARGAS SHUPINGAHUA "
     ],
     "direccion": "Calle Plaza de Armas 129",
     "latitud": -5.89485442619373,
     "longitud": -76.1043330689076
   },
   {
-    "nombre": "CARSA_CHICLAYO",
-    "region": "REGION 2",
-    "departamento": "Lambayeque",
-    "provincia": "Chiclayo",
-    "distrito": "Chiclayo",
-    "gerente": "CARO BECERRA CONSUELO",
+    "nombre": "CARSA_ABANCAY",
+    "region": "REGION 7",
+    "departamento": "Apurimac",
+    "provincia": "Abancay",
+    "distrito": "Abancay",
+    "gerente": "MENDOZA PAJARES MARCO ANTONIO",
     "funcionarios": [
-      "SANCHEZ AYACILA JHON KEMI",
-      "FLORES FLORES XAVIER HELAR EDUARDO",
-      "LÓPEZ ESTRELLA TANIA MEDALY",
-      "RIVERA SUAREZ WILSON MARIANO"
+      "VITORINO CUSI DIANA MAGALY"
     ],
-    "direccion": "AV. PEDRO RUIZ 879",
-    "latitud": -6.76773465107138,
-    "longitud": -79.8397966398252
+    "direccion": "JR. AREQUIPA 122",
+    "latitud": -13.6362262638128,
+    "longitud": -72.8776016305558
   },
   {
-    "nombre": "CARSA_JAEN",
-    "region": "REGION 2",
-    "departamento": "Jaen",
-    "provincia": "Jaen",
-    "distrito": "Jaen",
-    "gerente": "JOSE RIVERA FUENTES",
+    "nombre": "CARSA_AGUAYTIA",
+    "region": "REGION 5",
+    "departamento": "Ucayali",
+    "provincia": "Padre Abad",
+    "distrito": "Aguaytia",
+    "gerente": "BALDEON ONOFRIO RAFAEL ELMER",
     "funcionarios": [
-      "JIMENEZ ROJAS LUIS MIGUEL"
+      "CRUZ QUISPE LADYLI MILAGROS"
     ],
-    "direccion": "Av. Mesones Muro 117  Int.T -15 Sector Morro Solar",
-    "latitud": -5.71042023839129,
-    "longitud": -78.8065578596435
+    "direccion": "Jr. Andahuaylas Mz S lte 18",
+    "latitud": -9.03830083936309,
+    "longitud": -75.5092109433971
   },
   {
-    "nombre": "CARSA_JUANJUI CENTRO",
-    "region": "REGION 2",
-    "departamento": "San Martin",
-    "provincia": "Mariscal Caceres",
-    "distrito": "Juanjui",
-    "gerente": "CAMPOS FLORES LUCIO",
+    "nombre": "CARSA_AREQUIPA NORTE",
+    "region": "REGION 7",
+    "departamento": "Arequipa",
+    "provincia": "Arequipa",
+    "distrito": "Cerro Colorado",
+    "gerente": "VILLAGRA QUISPE ELDER JAIMITO",
     "funcionarios": [
-      "HERNANDEZ SANDOVAL CECILIA EDITH"
+      "ARAPA YTUSACA ROSARIO YSABEL",
+      "ALANYA AVALOS JACQUELINE MILAGROS"
     ],
-    "direccion": "JR. HUALLAGA 1085",
-    "latitud": -7.17808265245224,
-    "longitud": -76.7497877366083
+    "direccion": "CC Plaza Norte, Carretera Yura  Km 9",
+    "latitud": -16.3423180183565,
+    "longitud": -71.5830513432749
   },
   {
-    "nombre": "CARSA_MOYOBAMBA",
-    "region": "REGION 2",
-    "departamento": "San Martin",
-    "provincia": "Moyobamba",
-    "distrito": "Moyobamba",
-    "gerente": "INGA ARCE WALDYR",
+    "nombre": "CARSA_ATE PORVENIR",
+    "region": "REGION 5",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Ate",
+    "gerente": "  PACHECO VILCHEZ GERMAN RAMON GABRIEL",
     "funcionarios": [
-      "CRUZ MARIN KARINA MAGALY"
+      "QUISPE FERMIN KENNY ROGERS"
     ],
-    "direccion": "JR. ALONSO DE ALVARADO 764",
-    "latitud": -6.03176291313016,
-    "longitud": -76.9729474186849
+    "direccion": "Av. Nicolás Ayllón N° 5574",
+    "latitud": -12.0281588245796,
+    "longitud": -76.9229559050527
   },
   {
-    "nombre": "CARSA_NUEVA CAJAMARCA",
-    "region": "REGION 2",
-    "departamento": "San Martin",
-    "provincia": "Rioja",
-    "distrito": "Nueva Cajamarca",
-    "gerente": "RUIZ MALPARTIDA LLOFERSON",
+    "nombre": "CARSA_AYACUCHO",
+    "region": "REGION 5",
+    "departamento": "Ayacucho",
+    "provincia": "Huamanga",
+    "distrito": "Ayacucho",
+    "gerente": "LUJAN CENTENO ELDER BASILIO",
     "funcionarios": [
-      "CAMPOS CRESPIN LOYDITH"
+      "LOPEZ ARANGO JOHN MITCHELL"
     ],
-    "direccion": "Avenida Cajamarca Sur 459, Sector Nueva Cajamarca Centro, Mz. 15, Lt. 05A",
-    "latitud": -5.9416675203647,
-    "longitud": -77.3068221297705
+    "direccion": "AV. MARISCAL CACERES 905",
+    "latitud": -13.1578577417385,
+    "longitud": -74.223408855861
   },
   {
-    "nombre": "CARSA_OLMOS",
-    "region": "REGION 2",
-    "departamento": "Lambayeque",
-    "provincia": "Lambayeque",
-    "distrito": "Olmos",
-    "gerente": "AVILA DE LA CRUZ JUAN ALESDY",
+    "nombre": "CARSA_BARRANCA",
+    "region": "REGION 4",
+    "departamento": "Lima",
+    "provincia": "Barranca",
+    "distrito": "Barranca",
+    "gerente": "VILLANUEVA CORCINO GILVER KEINER",
     "funcionarios": [
-      "PUSE BENITES DARWIN MARTIN"
+      "PACHECO CERNA JAVIER JHONATAN",
+      "GARCIA EVANGELISTA RAUL ALCIDES"
     ],
-    "direccion": "Calle Bolognesi N° 866",
-    "latitud": -5.98890130669204,
-    "longitud": -79.7472365889723
-  },
-  {
-    "nombre": "CARSA_TARAPOTO",
-    "region": "REGION 2",
-    "departamento": "San Martin",
-    "provincia": "San Martin",
-    "distrito": "Tarapoto",
-    "gerente": "BERNILLA HUAMAN ANDRES",
-    "funcionarios": [
-      "PIZARRO ASPAJO JUDITH MARISELA",
-      "AZABACHE GARCIA FRANCHESCA",
-      "GUERRERO JAMBO CRISTIN MARLENY"
-    ],
-    "direccion": "JR. MARTINEZ DE COMPAGÑON 133",
-    "latitud": -6.4880181047661,
-    "longitud": -76.3607303671423
-  },
-  {
-    "nombre": "CARSA_YURIMAGUAS",
-    "region": "REGION 2",
-    "departamento": "Loreto",
-    "provincia": "Alto amazonas",
-    "distrito": "Yurimaguas",
-    "gerente": "GOMEZ CELIS FERNANDO",
-    "funcionarios": [
-      "AMASIFUEN CORDOVA LESLY MARGOTH"
-    ],
-    "direccion": "CAL. SARGENTO LORES 104",
-    "latitud": -5.89538915180358,
-    "longitud": -76.1048177045731
-  },
-  {
-    "nombre": "GMG_CHICLAYO",
-    "region": "REGION 2",
-    "departamento": "Lambayeque",
-    "provincia": "Chiclayo",
-    "distrito": "Chiclayo",
-    "gerente": "CAMPOS GUIMAS DEIVIS ROLAN",
-    "funcionarios": [
-      "RIOJAS DE LA CRUZ MARIO FIDEL"
-    ],
-    "direccion": "AV. PEDRO RUIZ 852",
-    "latitud": -6.76774195110939,
-    "longitud": -79.8414188652892
-  },
-  {
-    "nombre": "GMG_TARAPOTO PIMENTEL",
-    "region": "REGION 2",
-    "departamento": "San Martin",
-    "provincia": "San Martin",
-    "distrito": "Tarapoto",
-    "gerente": "PEREZ SECLEN OSCAR",
-    "funcionarios": [
-      "SANCHEZ TELLO JOB BOB"
-    ],
-    "direccion": "JR. JIMENEZ PIMENTEL 430",
-    "latitud": -6.49037182583357,
-    "longitud": -76.3621569578929
-  },
-  {
-    "nombre": "MOTO GO_JAEN",
-    "region": "REGION 2",
-    "departamento": "Jaen",
-    "provincia": "Jaen",
-    "distrito": "Jaen",
-    "gerente": "RAMIREZ TORRES GILMER",
-    "funcionarios": [
-      "YARLAQUE CAJUSOL JOSE ABEL",
-      "URIBE URBINA MARIA LOURDES"
-    ],
-    "direccion": "SEC. MORRO SOLAR AV. PAKAMUROS 110",
-    "latitud": -5.71255185612513,
-    "longitud": -78.8041830746544
-  },
-  {
-    "nombre": "CARSA MOTOS_CHIMBOTE",
-    "region": "REGION 3",
-    "departamento": "Ancash",
-    "provincia": "Santa",
-    "distrito": "Chimbote",
-    "gerente": "MENDIETA LAUREANO CRISTHIAM RENATO",
-    "funcionarios": [
-      "JAUREGUI URDANIVIA RICARDO KELLER"
-    ],
-    "direccion": "AV. JOSE GALVEZ 265",
-    "latitud": -9.07669116393516,
-    "longitud": -78.5903159387866
-  },
-  {
-    "nombre": "CARSA MOTOS_PACASMAYO",
-    "region": "REGION 3",
-    "departamento": "La Libertad",
-    "provincia": "Pacasmayo",
-    "distrito": "Pacasmayo",
-    "gerente": "ENCARGADA-COLLAO CABANILLAS JANNELY KARINA",
-    "funcionarios": [
-      "LOPEZ LAU LUCIANA MARIA"
-    ],
-    "direccion": "CAL. ADOLFO KING 69",
-    "latitud": -7.40101910723454,
-    "longitud": -79.5696682990111
+    "direccion": "Jirón Ramon Castilla 315 – 317",
+    "latitud": -10.7500205124007,
+    "longitud": -77.7617534649753
   },
   {
     "nombre": "CARSA_CAJABAMBA",
@@ -391,6 +264,62 @@
     "direccion": "AV. VICTOR RAUL HAYA DE LA TORRE S/N SECTOR PAMPA GRANDE",
     "latitud": -7.61167374698464,
     "longitud": -78.0582972354661
+  },
+  {
+    "nombre": "CARSA_CAMANA",
+    "region": "REGION 7",
+    "departamento": "Arequipa",
+    "provincia": "Camana",
+    "distrito": "Camana",
+    "gerente": "HIDALGO BEDREGAL CARMEN ROSA",
+    "funcionarios": [
+      "CALATAYUD HANCCO GONZALO EFRAIN"
+    ],
+    "direccion": "CAL. SEBASTIAN BARRANCA 217",
+    "latitud": -16.6211919146462,
+    "longitud": -72.7108477836834
+  },
+  {
+    "nombre": "CARSA_CAÑETE",
+    "region": "REGION 6",
+    "departamento": "Lima",
+    "provincia": "Cañete",
+    "distrito": "San Vicente de cañete",
+    "gerente": "ENCARGADO-PINEDO VILLACORTA GIAN CARLOS",
+    "funcionarios": [
+      "CAMBILLO MOYANO JULIO CESAR"
+    ],
+    "direccion": "Av. 2 de Mayo N° 602 San vicente de Cañete (esq. De Plaza de Armas)",
+    "latitud": -13.0773248284418,
+    "longitud": -76.3882417886579
+  },
+  {
+    "nombre": "CARSA_CAÑETE IMPERIAL",
+    "region": "REGION 6",
+    "departamento": "Lima",
+    "provincia": "Cañete",
+    "distrito": "Imperial",
+    "gerente": "TINEO CHULLUNCUY EDER IVAN",
+    "funcionarios": [
+      "MEDINA LEVANO VICTOR YVAN"
+    ],
+    "direccion": "JR. 02 MAYO 340",
+    "latitud": -13.019031594931,
+    "longitud": -76.3520396044736
+  },
+  {
+    "nombre": "CARSA_CARAZ",
+    "region": "REGION 4",
+    "departamento": "Ancash",
+    "provincia": "Huaylas",
+    "distrito": "Caraz",
+    "gerente": "JAMANCA ASENCIOS JULIO CESAR",
+    "funcionarios": [
+      "NAMO YSLA JHONNATAN ANDRES"
+    ],
+    "direccion": "Jr. Sucre Mz. V2  Lote 13 Barrio La Esperanza",
+    "latitud": -9.04874520906019,
+    "longitud": -77.8096480297303
   },
   {
     "nombre": "CARSA_CASAGRANDE",
@@ -419,6 +348,20 @@
     "direccion": "Calle Nepeña Mza C lote 7A",
     "latitud": -9.47534897711148,
     "longitud": -78.3029822127663
+  },
+  {
+    "nombre": "CARSA_CERRO DE PASCO",
+    "region": "REGION 5",
+    "departamento": "Pasco",
+    "provincia": "Pasco",
+    "distrito": "Pasco",
+    "gerente": "PANDURO ARTEAGA OSWALDO",
+    "funcionarios": [
+      "RIOS PRESENTACION DIANA HEIDI"
+    ],
+    "direccion": "JIRÓN SAN CRISTOBAL MZ L LOTE 45A SECTOR CENTRO DISTRITO CHAUPIMARCA",
+    "latitud": -10.685663511639,
+    "longitud": -76.2568270550622
   },
   {
     "nombre": "CARSA_CHEPEN",
@@ -450,6 +393,23 @@
     "longitud": -79.4287367319767
   },
   {
+    "nombre": "CARSA_CHICLAYO",
+    "region": "REGION 2",
+    "departamento": "Lambayeque",
+    "provincia": "Chiclayo",
+    "distrito": "Chiclayo",
+    "gerente": "CARO BECERRA CONSUELO",
+    "funcionarios": [
+      "SANCHEZ AYACILA JHON KEMI",
+      "FLORES FLORES XAVIER HELAR EDUARDO",
+      "LÓPEZ ESTRELLA TANIA MEDALY",
+      "RIVERA SUAREZ WILSON MARIANO"
+    ],
+    "direccion": "AV. PEDRO RUIZ 879",
+    "latitud": -6.76773465107138,
+    "longitud": -79.8397966398252
+  },
+  {
     "nombre": "CARSA_CHIMBOTE",
     "region": "REGION 3",
     "departamento": "Ancash",
@@ -479,90 +439,32 @@
     "longitud": -78.5922690896326
   },
   {
-    "nombre": "CARSA_HUAMACHUCO",
-    "region": "REGION 3",
-    "departamento": "La Libertad",
-    "provincia": "Sanchez Carrion",
-    "distrito": "Huamachuco",
-    "gerente": "SIFUENTES ALTAMIRANO EDGARD DAVID",
+    "nombre": "CARSA_CHINCHA",
+    "region": "REGION 6",
+    "departamento": "Ica",
+    "provincia": "Chincha",
+    "distrito": "Chincha Alta",
+    "gerente": "ENCARGADO-RAMOS JACOBO JHEISON DAVID",
     "funcionarios": [
-      "ARAUJO VALVERDE ALEX NANDO"
+      "DE LA CRUZ SARAVIA CESAR ROMAN"
     ],
-    "direccion": "Jr. Francisco Bolognesi N° 610 - 616",
-    "latitud": -7.74692275455295,
-    "longitud": -78.0442923401132
+    "direccion": "AV. MARISCAL BENAVIDES 287",
+    "latitud": -13.4174914055159,
+    "longitud": -76.13518091715
   },
   {
-    "nombre": "CARSA_PACASMAYO",
-    "region": "REGION 3",
-    "departamento": "La Libertad",
-    "provincia": "Pacasmayo",
-    "distrito": "Pacasmayo",
-    "gerente": "FARRO CRUZ EDUARDO ALEXANDER",
+    "nombre": "CARSA_CHULUCANAS",
+    "region": "REGION 1",
+    "departamento": "Piura",
+    "provincia": "Morropon",
+    "distrito": "Chulucanas",
+    "gerente": "CERNA BENAVIDES FRANK ALEXANDER",
     "funcionarios": [
-      "EDGAR ALEJANDRO PAZ PORTILLA"
+      "MAZA YARLEQUE SEGUNDO JORGE"
     ],
-    "direccion": "Calle Junin 133 - 135 Centro Poblado Centro de Pacasmayo",
-    "latitud": -7.40128309564075,
-    "longitud": -79.569321666833
-  },
-  {
-    "nombre": "CARSA_TRUJILLO",
-    "region": "REGION 3",
-    "departamento": "La Libertad",
-    "provincia": "Trujillo",
-    "distrito": "Trujillo",
-    "gerente": "GONZALEZ MOSTACERO LUIS FERNANDO",
-    "funcionarios": [
-      "RODRIGUEZ PERALTA RAMILA EVERILDA",
-      "GONZALES AGUIRRE CAMILA BRIGGIT"
-    ],
-    "direccion": "Esq. Bolivar N° 694 / Junín N° 612-614",
-    "latitud": -8.11033232683618,
-    "longitud": -79.0248552933728
-  },
-  {
-    "nombre": "CARSA_VIRU",
-    "region": "REGION 3",
-    "departamento": "La Libertad",
-    "provincia": "Viru",
-    "distrito": "Viru",
-    "gerente": "POEMAPE PIMENTEL DAVID ORLANDO",
-    "funcionarios": [
-      "SOLES PATIÑO ANITA ROSA"
-    ],
-    "direccion": "Calle La Alameda N° 240",
-    "latitud": -8.41217289819501,
-    "longitud": -78.7543716332432
-  },
-  {
-    "nombre": "CARSA_BARRANCA",
-    "region": "REGION 4",
-    "departamento": "Lima",
-    "provincia": "Barranca",
-    "distrito": "Barranca",
-    "gerente": "VILLANUEVA CORCINO GILVER KEINER",
-    "funcionarios": [
-      "PACHECO CERNA JAVIER JHONATAN",
-      "GARCIA EVANGELISTA RAUL ALCIDES"
-    ],
-    "direccion": "Jirón Ramon Castilla 315 – 317",
-    "latitud": -10.7500205124007,
-    "longitud": -77.7617534649753
-  },
-  {
-    "nombre": "CARSA_CARAZ",
-    "region": "REGION 4",
-    "departamento": "Ancash",
-    "provincia": "Huaylas",
-    "distrito": "Caraz",
-    "gerente": "JAMANCA ASENCIOS JULIO CESAR",
-    "funcionarios": [
-      "NAMO YSLA JHONNATAN ANDRES"
-    ],
-    "direccion": "Jr. Sucre Mz. V2  Lote 13 Barrio La Esperanza",
-    "latitud": -9.04874520906019,
-    "longitud": -77.8096480297303
+    "direccion": "Calle Lambayeque 398, esquina con Cusco",
+    "latitud": -5.09609840868098,
+    "longitud": -80.1604675108422
   },
   {
     "nombre": "CARSA_COMAS",
@@ -593,6 +495,20 @@
     "longitud": -77.050539573115
   },
   {
+    "nombre": "CARSA_CUSCO CENTRO",
+    "region": "REGION 7",
+    "departamento": "Cusco",
+    "provincia": "Cusco",
+    "distrito": "Cusco",
+    "gerente": "CHOQUE GONZA MILTON ALEX",
+    "funcionarios": [
+      "PAYVA TAPIA RUTH FIDELIA"
+    ],
+    "direccion": "Ca. Ayacucho 161, Urbanizacion Centro Historico Cusco",
+    "latitud": -13.5197561067734,
+    "longitud": -71.978078372704
+  },
+  {
     "nombre": "CARSA_HUACHO",
     "region": "REGION 4",
     "departamento": "Lima",
@@ -605,6 +521,49 @@
     "direccion": "AV. 28 DE JULIO 239",
     "latitud": -11.1073453574634,
     "longitud": -77.6066301381833
+  },
+  {
+    "nombre": "CARSA_HUAMACHUCO",
+    "region": "REGION 3",
+    "departamento": "La Libertad",
+    "provincia": "Sanchez Carrion",
+    "distrito": "Huamachuco",
+    "gerente": "SIFUENTES ALTAMIRANO EDGARD DAVID",
+    "funcionarios": [
+      "ARAUJO VALVERDE ALEX NANDO"
+    ],
+    "direccion": "Jr. Francisco Bolognesi N° 610 - 616",
+    "latitud": -7.74692275455295,
+    "longitud": -78.0442923401132
+  },
+  {
+    "nombre": "CARSA_HUANCAYO",
+    "region": "REGION 5",
+    "departamento": "Junin",
+    "provincia": "Huancayo",
+    "distrito": "Huancayo",
+    "gerente": "RENTERA SOLANO ABRAHAM",
+    "funcionarios": [
+      "WILFREDO RIVAS ROBLES",
+      "RENZO"
+    ],
+    "direccion": "AV. GIRALDEZ 271",
+    "latitud": -12.0677284163908,
+    "longitud": -76.0047805416126
+  },
+  {
+    "nombre": "CARSA_HUANUCO",
+    "region": "REGION 5",
+    "departamento": "Huanuco",
+    "provincia": "Huanuco",
+    "distrito": "Huanuco",
+    "gerente": "DAGA GARCIA PERCY ANTONIO",
+    "funcionarios": [
+      "FABÍAN SANCHEZ MILET YADIRA"
+    ],
+    "direccion": "Jirón Dos de Mayo N° 1031 - 1033, Barrio Junta Vecinal Beaterio",
+    "latitud": -9.93131598047273,
+    "longitud": -76.2415022067101
   },
   {
     "nombre": "CARSA_HUARAL",
@@ -650,256 +609,6 @@
     "longitud": -78.1517119134965
   },
   {
-    "nombre": "CARSA_VENTANILLA",
-    "region": "REGION 4",
-    "departamento": "Lima",
-    "provincia": "Callao",
-    "distrito": "Ventanilla",
-    "gerente": "FLORES CORDOVA DOWALD EDWIN",
-    "funcionarios": [],
-    "direccion": "Mza  C8 Lte 20 Urb. La Bandera",
-    "latitud": -11.8756102396152,
-    "longitud": -77.1270271878517
-  },
-  {
-    "nombre": "GMG_BARRANCA",
-    "region": "REGION 4",
-    "departamento": "Lima",
-    "provincia": "Barranca",
-    "distrito": "Barranca",
-    "gerente": "ESPADA SOLIS MIRKO RAFAEL",
-    "funcionarios": [
-      "BENITES ESQUIVEL ANTHONY JULIAN"
-    ],
-    "direccion": "Jr. Castilla 283 (Ref. Altura de CREDI CHAVIN)",
-    "latitud": -10.7499529964485,
-    "longitud": -77.7621192847607
-  },
-  {
-    "nombre": "GMG_CARABAYLLO",
-    "region": "REGION 4",
-    "departamento": "Lima",
-    "provincia": "Lima",
-    "distrito": "Carabayllo",
-    "gerente": "CORNEJO REDONDEZ CONSTANTINO",
-    "funcionarios": [
-      "MARISOL CAMARGO QUISPE"
-    ],
-    "direccion": "Pueblo Joven el Progreso MZ. 1K, LT. 1 ZONA 1 (Av. Túpac Amaru 3050-3052 Kilómetro 20)\nRef. Paradero 22 y comisaria el progreso",
-    "latitud": -11.8773136632043,
-    "longitud": -77.0172159608232
-  },
-  {
-    "nombre": "GMG_HUACHO",
-    "region": "REGION 4",
-    "departamento": "Lima",
-    "provincia": "Huaura",
-    "distrito": "Huacho",
-    "gerente": "BARRIENTOS VICENTE RAUL",
-    "funcionarios": [
-      "PEREZ BAZALAR JUNIOR HANS"
-    ],
-    "direccion": "Av. 28 Julio N° 271\n(Ref. frente a la SUNAT / Costado pollería “El Chaparral”)",
-    "latitud": -11.1073462994099,
-    "longitud": -77.606882193921
-  },
-  {
-    "nombre": "GMG_HUARAL",
-    "region": "REGION 4",
-    "departamento": "Lima",
-    "provincia": "Huaral",
-    "distrito": "Huaral",
-    "gerente": "PEREZ QUISPE LUIS ALFREDO",
-    "funcionarios": [
-      "MARCELO SAAVEDRA EVELYN MADELEINE"
-    ],
-    "direccion": "CAL. DERECHA 549",
-    "latitud": -11.4949567123569,
-    "longitud": -77.2054386543866
-  },
-  {
-    "nombre": "GMG_MINKA",
-    "region": "REGION 4",
-    "departamento": "Lima",
-    "provincia": "Callao",
-    "distrito": "Callao",
-    "gerente": "MAMANI AGREDA CESAR MARTIN",
-    "funcionarios": [
-      "SALLUCA ARE ELIZABETH"
-    ],
-    "direccion": "Av. Argentina 3093 local 470 Calle 3 Pabellón 07 Ref. frente al terminal pesquero",
-    "latitud": -12.0489761011072,
-    "longitud": -77.1099344471413
-  },
-  {
-    "nombre": "GMG_PUENTE PIEDRA",
-    "region": "REGION 4",
-    "departamento": "Lima",
-    "provincia": "Lima",
-    "distrito": "Puente Piedra",
-    "gerente": "ENCARGADA-MARIANO BORJA LUZ MAURA",
-    "funcionarios": [
-      "ALFONSO BUSTAMANTE GARCÍA"
-    ],
-    "direccion": "Av. Puente Piedra 298, (Ref. puente ELEKTRO/ costado de LUCERO)",
-    "latitud": -11.8609983909523,
-    "longitud": -77.078557362488
-  },
-  {
-    "nombre": "GMG_VENTANILLA",
-    "region": "REGION 4",
-    "departamento": "Lima",
-    "provincia": "Callao",
-    "distrito": "Ventanilla",
-    "gerente": "SOTO RIOS ISAAC",
-    "funcionarios": [
-      "ANGEL ANTONIO ALVARADO TAIPE"
-    ],
-    "direccion": "URB. EX ZONA COMERCIAL E INDUSTRIAL Mz C5 Lote 18A",
-    "latitud": -11.8733135018732,
-    "longitud": -77.1273850471451
-  },
-  {
-    "nombre": "CARSA MOTOS_PICHANAQUI",
-    "region": "REGION 5",
-    "departamento": "Junin",
-    "provincia": "Chanchamayo",
-    "distrito": "Pichanaqui",
-    "gerente": "CONTRERAS ASENCIO ESAU AMOS",
-    "funcionarios": [
-      "VILCHEZ APOLINARIO DANNY CESAR"
-    ],
-    "direccion": "Avenida Marginal 528",
-    "latitud": -10.9274973657516,
-    "longitud": -74.873676186797
-  },
-  {
-    "nombre": "CARSA MOTOS_PUCALLPA",
-    "region": "REGION 5",
-    "departamento": "Ucayali",
-    "provincia": "Coronel Portillo",
-    "distrito": "Calleria",
-    "gerente": "HINOSTROZA ZUMAETA LUIS ALEXANDER",
-    "funcionarios": [
-      "MOZOMBITE RIOS FERNANDO JHEEYN"
-    ],
-    "direccion": "Jr Coronel Portillo 696, Intersencion C portillo y 7 de Junio",
-    "latitud": -8.38726215993706,
-    "longitud": -74.5308048291047
-  },
-  {
-    "nombre": "CARSA MOTOS_SATIPO",
-    "region": "REGION 5",
-    "departamento": "Junin",
-    "provincia": "Satipo",
-    "distrito": "Satipo",
-    "gerente": "CORDOVA RAMIREZ DRAUSIN ILBERT",
-    "funcionarios": [
-      "VALDIVIA PAREDES ANTHONY BRAYHAN"
-    ],
-    "direccion": "Jr. Francisco Irazola Nº 673-675",
-    "latitud": -11.2572778213237,
-    "longitud": -74.6400523978239
-  },
-  {
-    "nombre": "CARSA MOTOS_TOCACHE",
-    "region": "REGION 5",
-    "departamento": "San Martin",
-    "provincia": "Tocache",
-    "distrito": "Tocache",
-    "gerente": "ALVARADO MEDINA CLARIBEL",
-    "funcionarios": [
-      "VILLANUEVA MUÑOZ LIMBERTA"
-    ],
-    "direccion": "JR. SAN JUAN 685",
-    "latitud": -8.19004753965451,
-    "longitud": -76.5112258204571
-  },
-  {
-    "nombre": "CARSA_AGUAYTIA",
-    "region": "REGION 5",
-    "departamento": "Ucayali",
-    "provincia": "Padre Abad",
-    "distrito": "Aguaytia",
-    "gerente": "BALDEON ONOFRIO RAFAEL ELMER",
-    "funcionarios": [
-      "CRUZ QUISPE LADYLI MILAGROS"
-    ],
-    "direccion": "Jr. Andahuaylas Mz S lte 18",
-    "latitud": -9.03830083936309,
-    "longitud": -75.5092109433971
-  },
-  {
-    "nombre": "CARSA_ATE PORVENIR",
-    "region": "REGION 5",
-    "departamento": "Lima",
-    "provincia": "Lima",
-    "distrito": "Ate",
-    "gerente": "PACHECO VILCHEZ GERMAN RAMON GABRIEL",
-    "funcionarios": [
-      "QUISPE FERMIN KENNY ROGERS"
-    ],
-    "direccion": "Av. Nicolás Ayllón N° 5574",
-    "latitud": -12.0281588245796,
-    "longitud": -76.9229559050527
-  },
-  {
-    "nombre": "CARSA_AYACUCHO",
-    "region": "REGION 5",
-    "departamento": "Ayacucho",
-    "provincia": "Huamanga",
-    "distrito": "Ayacucho",
-    "gerente": "LUJAN CENTENO ELDER BASILIO",
-    "funcionarios": [
-      "LOPEZ ARANGO JOHN MITCHELL"
-    ],
-    "direccion": "AV. MARISCAL CACERES 905",
-    "latitud": -13.1578577417385,
-    "longitud": -74.223408855861
-  },
-  {
-    "nombre": "CARSA_CERRO DE PASCO",
-    "region": "REGION 5",
-    "departamento": "Pasco",
-    "provincia": "Pasco",
-    "distrito": "Pasco",
-    "gerente": "PANDURO ARTEAGA OSWALDO",
-    "funcionarios": [
-      "RIOS PRESENTACION DIANA HEIDI"
-    ],
-    "direccion": "JIRÓN SAN CRISTOBAL MZ L LOTE 45A SECTOR CENTRO DISTRITO CHAUPIMARCA",
-    "latitud": -10.685663511639,
-    "longitud": -76.2568270550622
-  },
-  {
-    "nombre": "CARSA_HUANCAYO",
-    "region": "REGION 5",
-    "departamento": "Junin",
-    "provincia": "Huancayo",
-    "distrito": "Huancayo",
-    "gerente": "RENTERA SOLANO ABRAHAM",
-    "funcionarios": [
-      "WILFREDO RIVAS ROBLES"
-    ],
-    "direccion": "AV. GIRALDEZ 271",
-    "latitud": -12.0677284163908,
-    "longitud": -76.0047805416126
-  },
-  {
-    "nombre": "CARSA_HUANUCO",
-    "region": "REGION 5",
-    "departamento": "Huanuco",
-    "provincia": "Huanuco",
-    "distrito": "Huanuco",
-    "gerente": "DAGA GARCIA PERCY ANTONIO",
-    "funcionarios": [
-      "FABÍAN SANCHEZ MILET YADIRA"
-    ],
-    "direccion": "Jirón Dos de Mayo N° 1031 - 1033, Barrio Junta Vecinal Beaterio",
-    "latitud": -9.93131598047273,
-    "longitud": -76.2415022067101
-  },
-  {
     "nombre": "CARSA_HUAYCAN",
     "region": "REGION 5",
     "departamento": "Lima",
@@ -912,148 +621,6 @@
     "direccion": "Av. Jose Carlos Mariategui Lote 09 Zona B Huaycan",
     "latitud": -12.0137348736898,
     "longitud": -76.8240617646638
-  },
-  {
-    "nombre": "CARSA_LA MERCED",
-    "region": "REGION 5",
-    "departamento": "Junin",
-    "provincia": "Chanchamayo",
-    "distrito": "La Merced",
-    "gerente": "VEGA QUISPE JOSE ANTONIO",
-    "funcionarios": [
-      "PULACHE SUAREZ LEIDY PRISCILA"
-    ],
-    "direccion": "Jr Tarma N°  429 - 431",
-    "latitud": -11.0555189581994,
-    "longitud": -75.3282006901045
-  },
-  {
-    "nombre": "CARSA_PUCALLPA PORTILLO",
-    "region": "REGION 5",
-    "departamento": "Ucayali",
-    "provincia": "Coronel Portillo",
-    "distrito": "Calleria",
-    "gerente": "MORI PEREZ MARCIA",
-    "funcionarios": [
-      "JARAMILLO VASQUEZ GOSVANI CAYTANYA",
-      "BERMEJO GARCIA JEAN CARLOS"
-    ],
-    "direccion": "JR. CORONEL PORTILLO 698",
-    "latitud": -8.38726557361537,
-    "longitud": -74.5308121295664
-  },
-  {
-    "nombre": "CARSA_TARMA",
-    "region": "REGION 5",
-    "departamento": "Junin",
-    "provincia": "Tarma",
-    "distrito": "Tarma",
-    "gerente": "YOVANI MEZA SOLORZANO",
-    "funcionarios": [
-      "GONZALES ROJAS OSCAR ALFREDO"
-    ],
-    "direccion": "Jr Lima N° 674-680",
-    "latitud": -11.4197069632804,
-    "longitud": -75.6906902739148
-  },
-  {
-    "nombre": "CARSA_TINGO MARIA",
-    "region": "REGION 5",
-    "departamento": "Huanuco",
-    "provincia": "Leoncio Prado",
-    "distrito": "Rupa - Rupa",
-    "gerente": "ALBINO CASTILLO DANIEL",
-    "funcionarios": [
-      "VILLANUEVA MARTINEZ GISELA ISABEL",
-      "QUISPE NARVAEZ RENZO"
-    ],
-    "direccion": "Av  Antonio  Raymondi  N° 568 Tingo Maria Leoncio Prado Huanuco",
-    "latitud": -9.30166476679874,
-    "longitud": -76.0047805416126
-  },
-  {
-    "nombre": "CARSA_TOCACHE",
-    "region": "REGION 5",
-    "departamento": "San Martin",
-    "provincia": "Tocache",
-    "distrito": "Tocache",
-    "gerente": "RODRIGUEZ SALINAS JOSE LUIS",
-    "funcionarios": [
-      "ALBUJAR CARBAJAL NAEL"
-    ],
-    "direccion": "JR. FREDDY ALIAGA 295",
-    "latitud": -8.18896875088756,
-    "longitud": -76.5107045291599
-  },
-  {
-    "nombre": "GMG_SJL CASTILLA",
-    "region": "REGION 5",
-    "departamento": "Lima",
-    "provincia": "Lima",
-    "distrito": "San Juan de Lurigancho",
-    "gerente": "ENCARGADO-MELENDEZ CASTRO YESSICA YANETH",
-    "funcionarios": [
-      "MANRIQUE VELIZ RICHARD JHON"
-    ],
-    "direccion": "Avenida Próceres de la Independencia No. 5190 Ref.: Paradero 5 de Mariscal",
-    "latitud": -11.9477279636305,
-    "longitud": -76.9848765913217
-  },
-  {
-    "nombre": "GMG_TINGO MARIA",
-    "region": "REGION 5",
-    "departamento": "Huanuco",
-    "provincia": "Leoncio Prado",
-    "distrito": "Tingo Maria",
-    "gerente": "CONTRERAS QUISPE DAVID FRANCISCO",
-    "funcionarios": [
-      "RIOS SAAVEDRA TIRSON JUNIOR"
-    ],
-    "direccion": "Av. Raimondi N° 500 (500-506)",
-    "latitud": -9.29276176197128,
-    "longitud": -76.0015840608806
-  },
-  {
-    "nombre": "CARSA_CAÑETE",
-    "region": "REGION 6",
-    "departamento": "Lima",
-    "provincia": "Cañete",
-    "distrito": "San Vicente de cañete",
-    "gerente": "ENCARGADO-PINEDO VILLACORTA GIAN CARLOS",
-    "funcionarios": [
-      "CAMBILLO MOYANO JULIO CESAR"
-    ],
-    "direccion": "Av. 2 de Mayo N° 602 San vicente de Cañete (esq. De Plaza de Armas)",
-    "latitud": -13.0773248284418,
-    "longitud": -76.3882417886579
-  },
-  {
-    "nombre": "CARSA_CAÑETE IMPERIAL",
-    "region": "REGION 6",
-    "departamento": "Lima",
-    "provincia": "Cañete",
-    "distrito": "Imperial",
-    "gerente": "TINEO CHULLUNCUY EDER IVAN",
-    "funcionarios": [
-      "MEDINA LEVANO VICTOR YVAN"
-    ],
-    "direccion": "JR. 02 MAYO 340",
-    "latitud": -13.019031594931,
-    "longitud": -76.3520396044736
-  },
-  {
-    "nombre": "CARSA_CHINCHA",
-    "region": "REGION 6",
-    "departamento": "Ica",
-    "provincia": "Chincha",
-    "distrito": "Chincha Alta",
-    "gerente": "ENCARGADO-RAMOS JACOBO JHEISON DAVID",
-    "funcionarios": [
-      "DE LA CRUZ SARAVIA CESAR ROMAN"
-    ],
-    "direccion": "AV. MARISCAL BENAVIDES 287",
-    "latitud": -13.4174914055159,
-    "longitud": -76.13518091715
   },
   {
     "nombre": "CARSA_ICA",
@@ -1071,256 +638,6 @@
     "direccion": "Jr. Cajamarca N° 170-178",
     "latitud": -14.0640250779228,
     "longitud": -75.7274588491942
-  },
-  {
-    "nombre": "CARSA_MALA",
-    "region": "REGION 6",
-    "departamento": "Lima",
-    "provincia": "Cañete",
-    "distrito": "Mala",
-    "gerente": "GARRIAZO CARHUAS JEANETTE MAGALY",
-    "funcionarios": [
-      "RIOS GUZMAN OSCAR ANTHONY"
-    ],
-    "direccion": "URB. ARTADI CASTILLO MZ D LOTE 8",
-    "latitud": -12.653580200312,
-    "longitud": -76.635300191306
-  },
-  {
-    "nombre": "CARSA_MANCHAY",
-    "region": "REGION 6",
-    "departamento": "Lima",
-    "provincia": "Lima",
-    "distrito": "Pachacamac",
-    "gerente": "ENCARGADA-CORONADO INOÑAN JENY PATRICIA",
-    "funcionarios": [
-      "ACOSTA VALENZUELA DAVID GIOVANNY"
-    ],
-    "direccion": "Calle No. 36 Mz.  F1 Lote No. 12A – Quebrada de Manchay Distrito de Pachacamac",
-    "latitud": -12.1104815363641,
-    "longitud": -76.8731537180275
-  },
-  {
-    "nombre": "CARSA_NAZCA",
-    "region": "REGION 6",
-    "departamento": "Nazca",
-    "provincia": "Nazca",
-    "distrito": "Nazca",
-    "gerente": "SOLANO  ROBLES  GERMAN JUNIOR",
-    "funcionarios": [
-      "LUIS ARTEMIO SALINAS SOTO"
-    ],
-    "direccion": "CAL. ARICA 359",
-    "latitud": -14.8275765082792,
-    "longitud": -74.9375780903485
-  },
-  {
-    "nombre": "CARSA_PISCO",
-    "region": "REGION 6",
-    "departamento": "Ica",
-    "provincia": "Pisco",
-    "distrito": "Pisco",
-    "gerente": "HUAROTE SARAVIA JESUS JAIR",
-    "funcionarios": [
-      "NAVARRO TORRES HELENY CATHERINE"
-    ],
-    "direccion": "Calle La Libertad N° 117 sector I, Mza 41, Lte 15 Pisco",
-    "latitud": -13.7116213868627,
-    "longitud": -76.2044223328263
-  },
-  {
-    "nombre": "CARSA_VILLA EL SALVADOR",
-    "region": "REGION 6",
-    "departamento": "Lima",
-    "provincia": "Lima",
-    "distrito": "Villa el Salvador",
-    "gerente": "ESPINOZA SANCHEZ NORMA ELIZABETH",
-    "funcionarios": [
-      "VALLADOLID CRUZ LUIS FREDES",
-      "QUISPE TIPULA DAVID MOISES"
-    ],
-    "direccion": "AV. REVOLUCION 1836",
-    "latitud": -12.2097755465587,
-    "longitud": -76.9387465657432
-  },
-  {
-    "nombre": "GMG_CAÑETE",
-    "region": "REGION 6",
-    "departamento": "Lima",
-    "provincia": "Cañete",
-    "distrito": "San Vicente de cañete",
-    "gerente": "VELASQUEZ SARAVIA KIARA LISBETH",
-    "funcionarios": [
-      "QUISPE LOZANO PAMELA ROSSMERY"
-    ],
-    "direccion": "Av. Mariscal Benavides 116 - 120, (Ref. a 50 metros del Óvalo Grau.)",
-    "latitud": -13.0763009265398,
-    "longitud": -76.3843143886579
-  },
-  {
-    "nombre": "GMG_CHILCA",
-    "region": "REGION 6",
-    "departamento": "Lima",
-    "provincia": "Cañete",
-    "distrito": "Chilca",
-    "gerente": "YAURI JUSCCA SORAIDA",
-    "funcionarios": [
-      "RODRIGUEZ ROMAN MANUEL ALEJANDRO"
-    ],
-    "direccion": "Av. Mariano Ignacio Prado N° 353 (Frente al Bco. de la Nación)",
-    "latitud": -12.5166593156167,
-    "longitud": -76.7370220923788
-  },
-  {
-    "nombre": "GMG_CHINCHA",
-    "region": "REGION 6",
-    "departamento": "Ica",
-    "provincia": "Chincha",
-    "distrito": "Chincha Alta",
-    "gerente": "GUILLEN GARAYAR DAVID AMILCAR",
-    "funcionarios": [
-      "PACHAS MORAN MARIA ELENA"
-    ],
-    "direccion": "AV. BENAVIDES 417",
-    "latitud": -13.4169555467351,
-    "longitud": -76.1370485201239
-  },
-  {
-    "nombre": "GMG_VILLA EL SALVADOR",
-    "region": "REGION 6",
-    "departamento": "Lima",
-    "provincia": "Lima",
-    "distrito": "Villa el Salvador",
-    "gerente": "CHAVEZ CONDORCHOA ANA BEATRIZ",
-    "funcionarios": [
-      "CAHUANA ZAPATA JORGE EDUARDO"
-    ],
-    "direccion": "AV. REVOLUCION 1770",
-    "latitud": -12.2090134416993,
-    "longitud": -76.9391932115019
-  },
-  {
-    "nombre": "GMG_VMT",
-    "region": "REGION 6",
-    "departamento": "Lima",
-    "provincia": "Lima",
-    "distrito": "Villa Maria del Triunfo",
-    "gerente": "BURGOS ARRUNATEGUI JULIO ALEJANDRO",
-    "funcionarios": [
-      "SOTO VILLEGAS FLOR DE MARIA ESTELA"
-    ],
-    "direccion": "Avenida Salvador Allende 784 (Asentamiento Humano Villa María del Triunfo Mz. G1, Lote 12, Sector Villa María del Triunfo),(Ref. cruce de Salvador Allende con Villa  Maria)",
-    "latitud": -12.1564932760794,
-    "longitud": -76.9594759759746
-  },
-  {
-    "nombre": "CARSA EXPRESS_ABANCAY",
-    "region": "REGION 7",
-    "departamento": "Abancay",
-    "provincia": "Abancay",
-    "distrito": "Las americas",
-    "gerente": "SANCHEZ CABRERA JESUS",
-    "funcionarios": [],
-    "direccion": "Av. Venezuela 308",
-    "latitud": -13.6344601765653,
-    "longitud": -72.8854484976774
-  },
-  {
-    "nombre": "CARSA EXPRESS_URUBAMBA",
-    "region": "REGION 7",
-    "departamento": "Cusco",
-    "provincia": "Urubamba",
-    "distrito": "Urubamba",
-    "gerente": "CHOQUE GONZA MILTON ALEX",
-    "funcionarios": [],
-    "direccion": "av 9 de noviembre s/n",
-    "latitud": -13.3075862588988,
-    "longitud": -72.1143437848723
-  },
-  {
-    "nombre": "CARSA MOTOS_IQUITOS",
-    "region": "REGION 7",
-    "departamento": "Loreto",
-    "provincia": "Maynas",
-    "distrito": "Iquitos",
-    "gerente": "CHONG YALTA JUANA",
-    "funcionarios": [
-      "GRANDEZ RAMIREZ GLENDY LESLY"
-    ],
-    "direccion": "JR. ARICA 253",
-    "latitud": -3.74981059649518,
-    "longitud": -73.2453137202866
-  },
-  {
-    "nombre": "CARSA MOTOS_PUERTO MALDONADO",
-    "region": "REGION 7",
-    "departamento": "Madre de Dios",
-    "provincia": "Tambopata",
-    "distrito": "Tambopata",
-    "gerente": "VELARDE TORRES JULIO CESAR",
-    "funcionarios": [
-      "VARGAS ZAVALA DANIEL EVENESER"
-    ],
-    "direccion": "Av. Dos de Mayo 1358",
-    "latitud": -12.5970221544939,
-    "longitud": -69.1795532352966
-  },
-  {
-    "nombre": "CARSA_ABANCAY",
-    "region": "REGION 7",
-    "departamento": "Apurimac",
-    "provincia": "Abancay",
-    "distrito": "Abancay",
-    "gerente": "MENDOZA PAJARES MARCO ANTONIO",
-    "funcionarios": [
-      "VITORINO CUSI DIANA MAGALY"
-    ],
-    "direccion": "JR. AREQUIPA 122",
-    "latitud": -13.6362262638128,
-    "longitud": -72.8776016305558
-  },
-  {
-    "nombre": "CARSA_AREQUIPA NORTE",
-    "region": "REGION 7",
-    "departamento": "Arequipa",
-    "provincia": "Arequipa",
-    "distrito": "Cerro Colorado",
-    "gerente": "VILLAGRA QUISPE ELDER JAIMITO",
-    "funcionarios": [
-      "ARAPA YTUSACA ROSARIO YSABEL",
-      "ALANYA AVALOS JACQUELINE MILAGROS"
-    ],
-    "direccion": "CC Plaza Norte, Carretera Yura  Km 9",
-    "latitud": -16.3423180183565,
-    "longitud": -71.5830513432749
-  },
-  {
-    "nombre": "CARSA_CAMANA",
-    "region": "REGION 7",
-    "departamento": "Arequipa",
-    "provincia": "Camana",
-    "distrito": "Camana",
-    "gerente": "HIDALGO BEDREGAL CARMEN ROSA",
-    "funcionarios": [
-      "CALATAYUD HANCCO GONZALO EFRAIN"
-    ],
-    "direccion": "CAL. SEBASTIAN BARRANCA 217",
-    "latitud": -16.6211919146462,
-    "longitud": -72.7108477836834
-  },
-  {
-    "nombre": "CARSA_CUSCO CENTRO",
-    "region": "REGION 7",
-    "departamento": "Cusco",
-    "provincia": "Cusco",
-    "distrito": "Cusco",
-    "gerente": "CHOQUE GONZA MILTON ALEX",
-    "funcionarios": [
-      "PAYVA TAPIA RUTH FIDELIA"
-    ],
-    "direccion": "Ca. Ayacucho 161, Urbanizacion Centro Historico Cusco",
-    "latitud": -13.5197561067734,
-    "longitud": -71.978078372704
   },
   {
     "nombre": "CARSA_ILO",
@@ -1353,6 +670,34 @@
     "longitud": -73.2459378782289
   },
   {
+    "nombre": "CARSA_JAEN",
+    "region": "REGION 2",
+    "departamento": "Jaen",
+    "provincia": "Jaen",
+    "distrito": "Jaen",
+    "gerente": "JOSE RIVERA FUENTES",
+    "funcionarios": [
+      "JIMENEZ ROJAS LUIS MIGUEL"
+    ],
+    "direccion": "Av. Mesones Muro 117  Int.T -15 Sector Morro Solar",
+    "latitud": -5.71042023839129,
+    "longitud": -78.8065578596435
+  },
+  {
+    "nombre": "CARSA_JUANJUI CENTRO",
+    "region": "REGION 2",
+    "departamento": "San Martin",
+    "provincia": "Mariscal Caceres",
+    "distrito": "Juanjui",
+    "gerente": "CAMPOS FLORES LUCIO",
+    "funcionarios": [
+      "HERNANDEZ SANDOVAL CECILIA EDITH"
+    ],
+    "direccion": "JR. HUALLAGA 1085",
+    "latitud": -7.17808265245224,
+    "longitud": -76.7497877366083
+  },
+  {
     "nombre": "CARSA_JULIACA",
     "region": "REGION 7",
     "departamento": "PUNO",
@@ -1367,6 +712,63 @@
     "longitud": -70.1328061104253
   },
   {
+    "nombre": "CARSA_LA MERCED",
+    "region": "REGION 5",
+    "departamento": "Junin",
+    "provincia": "Chanchamayo",
+    "distrito": "La Merced",
+    "gerente": "VEGA QUISPE JOSE ANTONIO",
+    "funcionarios": [
+      "PULACHE SUAREZ LEIDY PRISCILA"
+    ],
+    "direccion": "Jr Tarma N°  429 - 431",
+    "latitud": -11.0555189581994,
+    "longitud": -75.3282006901045
+  },
+  {
+    "nombre": "CARSA_LA UNION",
+    "region": "REGION 1",
+    "departamento": "Piura",
+    "provincia": "Piura",
+    "distrito": "La Union",
+    "gerente": "COVEÑAS IPANAQUE WILFREDO",
+    "funcionarios": [
+      "REATEGUI SANDOVAL JESUS MANUEL",
+      "MORALES  AQUINO  MIGUEL ENRIQUE"
+    ],
+    "direccion": "CALLE LIMA 227",
+    "latitud": -5.40032027619994,
+    "longitud": -80.7425955601298
+  },
+  {
+    "nombre": "CARSA_MALA",
+    "region": "REGION 6",
+    "departamento": "Lima",
+    "provincia": "Cañete",
+    "distrito": "Mala",
+    "gerente": "GARRIAZO CARHUAS JEANETTE MAGALY",
+    "funcionarios": [
+      "RIOS GUZMAN OSCAR ANTHONY"
+    ],
+    "direccion": "URB. ARTADI CASTILLO MZ D LOTE 8",
+    "latitud": -12.653580200312,
+    "longitud": -76.635300191306
+  },
+  {
+    "nombre": "CARSA_MANCHAY",
+    "region": "REGION 6",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Pachacamac",
+    "gerente": "ENCARGADA-CORONADO INOÑAN JENY PATRICIA",
+    "funcionarios": [
+      "ACOSTA VALENZUELA DAVID GIOVANNY"
+    ],
+    "direccion": "Calle No. 36 Mz.  F1 Lote No. 12A – Quebrada de Manchay Distrito de Pachacamac",
+    "latitud": -12.1104815363641,
+    "longitud": -76.8731537180275
+  },
+  {
     "nombre": "CARSA_MEGA SAN JUAN",
     "region": "REGION 7",
     "departamento": "Arequipa",
@@ -1379,6 +781,150 @@
     "direccion": "CAL. SAN JUAN DE DIOS 654",
     "latitud": -16.4072355116662,
     "longitud": -71.5384084923896
+  },
+  {
+    "nombre": "CARSA_MOYOBAMBA",
+    "region": "REGION 2",
+    "departamento": "San Martin",
+    "provincia": "Moyobamba",
+    "distrito": "Moyobamba",
+    "gerente": "INGA ARCE WALDYR",
+    "funcionarios": [
+      "CRUZ MARIN KARINA MAGALY"
+    ],
+    "direccion": "JR. ALONSO DE ALVARADO 764",
+    "latitud": -6.03176291313016,
+    "longitud": -76.9729474186849
+  },
+  {
+    "nombre": "CARSA_NAZCA",
+    "region": "REGION 6",
+    "departamento": "Nazca",
+    "provincia": "Nazca",
+    "distrito": "Nazca",
+    "gerente": "SOLANO  ROBLES  GERMAN JUNIOR",
+    "funcionarios": [
+      "LUIS ARTEMIO SALINAS SOTO"
+    ],
+    "direccion": "CAL. ARICA 359",
+    "latitud": -14.8275765082792,
+    "longitud": -74.9375780903485
+  },
+  {
+    "nombre": "CARSA_NUEVA CAJAMARCA",
+    "region": "REGION 2",
+    "departamento": "San Martin",
+    "provincia": "Rioja",
+    "distrito": "Nueva Cajamarca",
+    "gerente": "RUIZ MALPARTIDA LLOFERSON",
+    "funcionarios": [
+      "CAMPOS CRESPIN LOYDITH"
+    ],
+    "direccion": "Avenida Cajamarca Sur 459, Sector Nueva Cajamarca Centro, Mz. 15, Lt. 05A",
+    "latitud": -5.9416675203647,
+    "longitud": -77.3068221297705
+  },
+  {
+    "nombre": "CARSA_OLMOS",
+    "region": "REGION 2",
+    "departamento": "Lambayeque",
+    "provincia": "Lambayeque",
+    "distrito": "Olmos",
+    "gerente": "AVILA DE LA CRUZ JUAN ALESDY",
+    "funcionarios": [
+      "PUSE BENITES DARWIN MARTIN"
+    ],
+    "direccion": "Calle Bolognesi N° 866",
+    "latitud": -5.98890130669204,
+    "longitud": -79.7472365889723
+  },
+  {
+    "nombre": "CARSA_PACASMAYO",
+    "region": "REGION 3",
+    "departamento": "La Libertad",
+    "provincia": "Pacasmayo",
+    "distrito": "Pacasmayo",
+    "gerente": "FARRO CRUZ EDUARDO ALEXANDER",
+    "funcionarios": [
+      "EDGAR ALEJANDRO PAZ PORTILLA"
+    ],
+    "direccion": "Calle Junin 133 - 135 Centro Poblado Centro de Pacasmayo",
+    "latitud": -7.40128309564075,
+    "longitud": -79.569321666833
+  },
+  {
+    "nombre": "CARSA_PAITA",
+    "region": "REGION 1",
+    "departamento": "Piura",
+    "provincia": "Paita",
+    "distrito": "Paita",
+    "gerente": "CALLE ARRAIZA LUIS EDILBERTO",
+    "funcionarios": [
+      "ACARO CORDOVA JOHANNA VANESSA"
+    ],
+    "direccion": "Jr. Jorge  Chávez 300",
+    "latitud": -4.91127131139738,
+    "longitud": -81.059164011049
+  },
+  {
+    "nombre": "CARSA_PISCO",
+    "region": "REGION 6",
+    "departamento": "Ica",
+    "provincia": "Pisco",
+    "distrito": "Pisco",
+    "gerente": "HUAROTE SARAVIA JESUS JAIR",
+    "funcionarios": [
+      "NAVARRO TORRES HELENY CATHERINE"
+    ],
+    "direccion": "Calle La Libertad N° 117 sector I, Mza 41, Lte 15 Pisco ",
+    "latitud": -13.7116213868627,
+    "longitud": -76.2044223328263
+  },
+  {
+    "nombre": "CARSA_PIURA",
+    "region": "REGION 1",
+    "departamento": "Piura",
+    "provincia": "Piura",
+    "distrito": "Piura",
+    "gerente": "SAAVEDRA VASQUEZ JULINO SINECIO",
+    "funcionarios": [
+      "NAVARRO RUFINO JEANCARLOS EDGARDO",
+      "MONTENEGRO NAMUCHE KAREM JOHANA",
+      "DIAZ MENDOZA MARITZA",
+      "ZEVALLOS RUIZ JULIO CESAR"
+    ],
+    "direccion": "AV. LORETO 640",
+    "latitud": -5.1930830985144,
+    "longitud": -80.6298696301382
+  },
+  {
+    "nombre": "CARSA_PIURA GRAU",
+    "region": "REGION 1",
+    "departamento": "Piura",
+    "provincia": "Piura",
+    "distrito": "Piura",
+    "gerente": "SILVA HUMBO DORIS ISABEL",
+    "funcionarios": [
+      "MANRIQUE MENDOZA JUAN ALBERTO"
+    ],
+    "direccion": "AV. GRAU 299",
+    "latitud": -5.19588889843332,
+    "longitud": -80.6284008162352
+  },
+  {
+    "nombre": "CARSA_PUCALLPA PORTILLO",
+    "region": "REGION 5",
+    "departamento": "Ucayali",
+    "provincia": "Coronel Portillo",
+    "distrito": "Calleria",
+    "gerente": "MORI PEREZ MARCIA",
+    "funcionarios": [
+      "JARAMILLO VASQUEZ GOSVANI CAYTANYA",
+      "BERMEJO GARCIA JEAN CARLOS"
+    ],
+    "direccion": "JR. CORONEL PORTILLO 698",
+    "latitud": -8.38726557361537,
+    "longitud": -74.5308121295664
   },
   {
     "nombre": "CARSA_PUERTO MALDONADO",
@@ -1396,6 +942,35 @@
     "longitud": -69.1795532352966
   },
   {
+    "nombre": "CARSA_SECHURA",
+    "region": "REGION 1",
+    "departamento": "Piura",
+    "provincia": "Sechura",
+    "distrito": "Sechura",
+    "gerente": "CORREA SABA MIGUEL JESUS",
+    "funcionarios": [
+      "PAZO IMAN SONIA ELIZABETH"
+    ],
+    "direccion": "Calle San Martin N° 314 Cent. Sechura",
+    "latitud": -5.55533988245001,
+    "longitud": -80.8226577184171
+  },
+  {
+    "nombre": "CARSA_SULLANA",
+    "region": "REGION 1",
+    "departamento": "Piura",
+    "provincia": "Sullana",
+    "distrito": "Sullana",
+    "gerente": "CARO BECERRA CONSUELO",
+    "funcionarios": [
+      "ESPINOZA VALDIVIEZO DIEGO ALONSO",
+      "VIDAL ALAMEDA JENNY GLORIA"
+    ],
+    "direccion": "CAL. SAN MARTIN 761",
+    "latitud": -4.88800913806236,
+    "longitud": -80.6870966805597
+  },
+  {
     "nombre": "CARSA_TACNA",
     "region": "REGION 7",
     "departamento": "Tacna",
@@ -1403,11 +978,184 @@
     "distrito": "Tacna",
     "gerente": "CALDERON BARRETON DAVID JOSE EDSON",
     "funcionarios": [
-      "MARILIA JALIRI PARI"
+      "MARILIA JALIRI PARI "
     ],
     "direccion": "AV. SAN MARTIN 388",
     "latitud": -18.013105658332,
     "longitud": -70.2502743452707
+  },
+  {
+    "nombre": "CARSA_TALARA CIVICO",
+    "region": "REGION 1",
+    "departamento": "Piura",
+    "provincia": "Talara",
+    "distrito": "Talara",
+    "gerente": "OLAYA VALDIVIEZO VICTOR RAUL",
+    "funcionarios": [
+      "LIZBETH YANNINA QUINO QUINO "
+    ],
+    "direccion": "Centro Cívico N° 155 (Ref. Entre Bco. Crédito y Bco. Continental)\n",
+    "latitud": -4.57909633731373,
+    "longitud": -81.270775632603
+  },
+  {
+    "nombre": "CARSA_TAMBOGRANDE CENTRO",
+    "region": "REGION 1",
+    "departamento": "Piura",
+    "provincia": "Piura",
+    "distrito": "Tambogrande",
+    "gerente": "BERECHE QUINTANA STALIN MARTIN",
+    "funcionarios": [
+      "CHERRES GARCIA YADIRA"
+    ],
+    "direccion": "JR. TUMBES 760",
+    "latitud": -4.92982172146295,
+    "longitud": -80.3429081421873
+  },
+  {
+    "nombre": "CARSA_TARAPOTO",
+    "region": "REGION 2",
+    "departamento": "San Martin",
+    "provincia": "San Martin",
+    "distrito": "Tarapoto",
+    "gerente": "BERNILLA HUAMAN ANDRES",
+    "funcionarios": [
+      "PIZARRO ASPAJO JUDITH MARISELA",
+      "AZABACHE GARCIA FRANCHESCA",
+      "GUERRERO JAMBO CRISTIN MARLENY"
+    ],
+    "direccion": "JR. MARTINEZ DE COMPAGÑON 133",
+    "latitud": -6.4880181047661,
+    "longitud": -76.3607303671423
+  },
+  {
+    "nombre": "CARSA_TARMA",
+    "region": "REGION 5",
+    "departamento": "Junin",
+    "provincia": "Tarma",
+    "distrito": "Tarma",
+    "gerente": "YOVANI MEZA SOLORZANO",
+    "funcionarios": [
+      "GONZALES ROJAS OSCAR ALFREDO"
+    ],
+    "direccion": "Jr Lima N° 674-680",
+    "latitud": -11.4197069632804,
+    "longitud": -75.6906902739148
+  },
+  {
+    "nombre": "CARSA_TINGO MARIA",
+    "region": "REGION 5",
+    "departamento": "Huanuco",
+    "provincia": "Leoncio Prado",
+    "distrito": "Rupa - Rupa",
+    "gerente": "ALBINO CASTILLO DANIEL",
+    "funcionarios": [
+      "VILLANUEVA MARTINEZ GISELA ISABEL ",
+      "QUISPE NARVAEZ RENZO"
+    ],
+    "direccion": "Av  Antonio  Raymondi  N° 568 Tingo Maria Leoncio Prado Huanuco ",
+    "latitud": -9.30166476679874,
+    "longitud": -76.0047805416126
+  },
+  {
+    "nombre": "CARSA_TOCACHE",
+    "region": "REGION 5",
+    "departamento": "San Martin",
+    "provincia": "Tocache",
+    "distrito": "Tocache",
+    "gerente": "RODRIGUEZ SALINAS JOSE LUIS",
+    "funcionarios": [
+      "ALBUJAR CARBAJAL NAEL"
+    ],
+    "direccion": "JR. FREDDY ALIAGA 295",
+    "latitud": -8.18896875088756,
+    "longitud": -76.5107045291599
+  },
+  {
+    "nombre": "CARSA_TRUJILLO",
+    "region": "REGION 3",
+    "departamento": "La Libertad",
+    "provincia": "Trujillo",
+    "distrito": "Trujillo",
+    "gerente": "GONZALEZ MOSTACERO LUIS FERNANDO",
+    "funcionarios": [
+      "RODRIGUEZ PERALTA RAMILA EVERILDA",
+      "GONZALES AGUIRRE CAMILA BRIGGIT"
+    ],
+    "direccion": "Esq. Bolivar N° 694 / Junín N° 612-614 ",
+    "latitud": -8.11033232683618,
+    "longitud": -79.0248552933728
+  },
+  {
+    "nombre": "CARSA_TUMBES BOLIVAR",
+    "region": "REGION 1",
+    "departamento": "Tumbes",
+    "provincia": "Tumbes",
+    "distrito": "Tumbes",
+    "gerente": "CALDERON BARRIENTOS CARMENCITA YANINA",
+    "funcionarios": [
+      "TEJADA SILVA LUIS ENRIQUE",
+      "QUENECHE COLLAZOS NALLESDA NAYDELIN",
+      "AVILA ZURITA ANA FABIOLA"
+    ],
+    "direccion": "CAL. BOLIVAR 228",
+    "latitud": -3.57005262347563,
+    "longitud": -80.4585908515608
+  },
+  {
+    "nombre": "CARSA_VENTANILLA",
+    "region": "REGION 4",
+    "departamento": "Lima",
+    "provincia": "Callao",
+    "distrito": "Ventanilla",
+    "gerente": "FLORES CORDOVA DOWALD EDWIN",
+    "funcionarios": [],
+    "direccion": "Mza  C8 Lte 20 Urb. La Bandera",
+    "latitud": -11.8756102396152,
+    "longitud": -77.1270271878517
+  },
+  {
+    "nombre": "CARSA_VILLA EL SALVADOR",
+    "region": "REGION 6",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Villa el Salvador",
+    "gerente": "ESPINOZA SANCHEZ NORMA ELIZABETH",
+    "funcionarios": [
+      "VALLADOLID CRUZ LUIS FREDES",
+      "QUISPE TIPULA DAVID MOISES"
+    ],
+    "direccion": "AV. REVOLUCION 1836",
+    "latitud": -12.2097755465587,
+    "longitud": -76.9387465657432
+  },
+  {
+    "nombre": "CARSA_VIRU",
+    "region": "REGION 3",
+    "departamento": "La Libertad",
+    "provincia": "Viru",
+    "distrito": "Viru",
+    "gerente": "POEMAPE PIMENTEL DAVID ORLANDO",
+    "funcionarios": [
+      "SOLES PATIÑO ANITA ROSA"
+    ],
+    "direccion": "Calle La Alameda N° 240",
+    "latitud": -8.41217289819501,
+    "longitud": -78.7543716332432
+  },
+  {
+    "nombre": "CARSA_YURIMAGUAS",
+    "region": "REGION 2",
+    "departamento": "Loreto",
+    "provincia": "Alto amazonas",
+    "distrito": "Yurimaguas",
+    "gerente": "GOMEZ CELIS FERNANDO",
+    "funcionarios": [
+      "AMASIFUEN CORDOVA LESLY MARGOTH"
+    ],
+    "direccion": "CAL. SARGENTO LORES 104",
+    "latitud": -5.89538915180358,
+    "longitud": -76.1048177045731
   },
   {
     "nombre": "GMG_AREQUIPA PEDREGAL",
@@ -1424,6 +1172,259 @@
     "longitud": -72.1918101516455
   },
   {
+    "nombre": "GMG_BARRANCA",
+    "region": "REGION 4",
+    "departamento": "Lima",
+    "provincia": "Barranca",
+    "distrito": "Barranca",
+    "gerente": "ESPADA SOLIS MIRKO RAFAEL",
+    "funcionarios": [
+      "BENITES ESQUIVEL ANTHONY JULIAN"
+    ],
+    "direccion": "Jr. Castilla 283 (Ref. Altura de CREDI CHAVIN)\n",
+    "latitud": -10.7499529964485,
+    "longitud": -77.7621192847607
+  },
+  {
+    "nombre": "GMG_CAÑETE",
+    "region": "REGION 6",
+    "departamento": "Lima",
+    "provincia": "Cañete",
+    "distrito": "San Vicente de cañete",
+    "gerente": "VELASQUEZ SARAVIA KIARA LISBETH",
+    "funcionarios": [
+      "QUISPE LOZANO PAMELA ROSSMERY"
+    ],
+    "direccion": "Av. Mariscal Benavides 116 - 120, (Ref. a 50 metros del Óvalo Grau.)\n",
+    "latitud": -13.0763009265398,
+    "longitud": -76.3843143886579
+  },
+  {
+    "nombre": "GMG_CARABAYLLO",
+    "region": "REGION 4",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Carabayllo",
+    "gerente": "CORNEJO REDONDEZ CONSTANTINO",
+    "funcionarios": [
+      "MARISOL CAMARGO QUISPE"
+    ],
+    "direccion": "Pueblo Joven el Progreso MZ. 1K, LT. 1 ZONA 1 (Av. Túpac Amaru 3050-3052 Kilómetro 20)\nRef. Paradero 22 y comisaria el progreso\n",
+    "latitud": -11.8773136632043,
+    "longitud": -77.0172159608232
+  },
+  {
+    "nombre": "GMG_CHICLAYO",
+    "region": "REGION 2",
+    "departamento": "Lambayeque",
+    "provincia": "Chiclayo",
+    "distrito": "Chiclayo",
+    "gerente": "CAMPOS GUIMAS DEIVIS ROLAN",
+    "funcionarios": [
+      "RIOJAS DE LA CRUZ MARIO FIDEL"
+    ],
+    "direccion": "AV. PEDRO RUIZ 852",
+    "latitud": -6.76774195110939,
+    "longitud": -79.8414188652892
+  },
+  {
+    "nombre": "GMG_CHILCA",
+    "region": "REGION 6",
+    "departamento": "Lima",
+    "provincia": "Cañete",
+    "distrito": "Chilca",
+    "gerente": "YAURI JUSCCA SORAIDA",
+    "funcionarios": [
+      "RODRIGUEZ ROMAN MANUEL ALEJANDRO"
+    ],
+    "direccion": "Av. Mariano Ignacio Prado N° 353 (Frente al Bco. de la Nación)",
+    "latitud": -12.5166593156167,
+    "longitud": -76.7370220923788
+  },
+  {
+    "nombre": "GMG_CHINCHA",
+    "region": "REGION 6",
+    "departamento": "Ica",
+    "provincia": "Chincha",
+    "distrito": "Chincha Alta",
+    "gerente": "GUILLEN GARAYAR DAVID AMILCAR",
+    "funcionarios": [
+      "PACHAS MORAN MARIA ELENA "
+    ],
+    "direccion": "AV. BENAVIDES 417",
+    "latitud": -13.4169555467351,
+    "longitud": -76.1370485201239
+  },
+  {
+    "nombre": "GMG_HUACHO",
+    "region": "REGION 4",
+    "departamento": "Lima",
+    "provincia": "Huaura",
+    "distrito": "Huacho",
+    "gerente": "BARRIENTOS VICENTE RAUL",
+    "funcionarios": [
+      "PEREZ BAZALAR JUNIOR HANS"
+    ],
+    "direccion": "Av. 28 Julio N° 271\n(Ref. frente a la SUNAT / Costado pollería “El Chaparral”)\n",
+    "latitud": -11.1073462994099,
+    "longitud": -77.606882193921
+  },
+  {
+    "nombre": "GMG_HUARAL",
+    "region": "REGION 4",
+    "departamento": "Lima",
+    "provincia": "Huaral",
+    "distrito": "Huaral",
+    "gerente": "PEREZ QUISPE LUIS ALFREDO",
+    "funcionarios": [
+      "MARCELO SAAVEDRA EVELYN MADELEINE"
+    ],
+    "direccion": "CAL. DERECHA 549",
+    "latitud": -11.4949567123569,
+    "longitud": -77.2054386543866
+  },
+  {
+    "nombre": "GMG_LA UNION",
+    "region": "REGION 1",
+    "departamento": "Piura",
+    "provincia": "Piura",
+    "distrito": "La Union",
+    "gerente": "SILVA MECHATO DELY JAKELY",
+    "funcionarios": [
+      "SILUPU ANCAJIMA PAOLA JAHAIRA"
+    ],
+    "direccion": "Lote 18, Mz. 21, Centro Poblado Barrio La Capilla - (Cdra. 8 Calle Lima, frente al mercado UNION /por MIBANCO)",
+    "latitud": -5.40032027619994,
+    "longitud": -80.7425955601298
+  },
+  {
+    "nombre": "GMG_MINKA",
+    "region": "REGION 4",
+    "departamento": "Lima",
+    "provincia": "Callao",
+    "distrito": "Callao",
+    "gerente": "MAMANI AGREDA CESAR MARTIN",
+    "funcionarios": [
+      "SALLUCA ARE ELIZABETH "
+    ],
+    "direccion": "Av. Argentina 3093 local 470 Calle 3 Pabellón 07 Ref. frente al terminal pesquero\n",
+    "latitud": -12.0489761011072,
+    "longitud": -77.1099344471413
+  },
+  {
+    "nombre": "GMG_PUENTE PIEDRA",
+    "region": "REGION 4",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Puente Piedra",
+    "gerente": "ENCARGADA-MARIANO BORJA LUZ MAURA",
+    "funcionarios": [
+      "ALFONSO BUSTAMANTE GARCÍA"
+    ],
+    "direccion": "Av. Puente Piedra 298, (Ref. puente ELEKTRO/ costado de LUCERO)\n",
+    "latitud": -11.8609983909523,
+    "longitud": -77.078557362488
+  },
+  {
+    "nombre": "GMG_SJL CASTILLA",
+    "region": "REGION 5",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "San Juan de Lurigancho",
+    "gerente": "ENCARGADO-MELENDEZ CASTRO YESSICA YANETH",
+    "funcionarios": [
+      "MANRIQUE VELIZ RICHARD JHON"
+    ],
+    "direccion": "Avenida Próceres de la Independencia No. 5190 Ref.: Paradero 5 de Mariscal",
+    "latitud": -11.9477279636305,
+    "longitud": -76.9848765913217
+  },
+  {
+    "nombre": "GMG_TARAPOTO PIMENTEL",
+    "region": "REGION 2",
+    "departamento": "San Martin",
+    "provincia": "San Martin",
+    "distrito": "Tarapoto",
+    "gerente": "PEREZ SECLEN OSCAR",
+    "funcionarios": [
+      "SANCHEZ TELLO JOB BOB"
+    ],
+    "direccion": "JR. JIMENEZ PIMENTEL 430",
+    "latitud": -6.49037182583357,
+    "longitud": -76.3621569578929
+  },
+  {
+    "nombre": "GMG_TINGO MARIA",
+    "region": "REGION 5",
+    "departamento": "Huanuco",
+    "provincia": "Leoncio Prado",
+    "distrito": "Tingo Maria",
+    "gerente": "CONTRERAS QUISPE DAVID FRANCISCO",
+    "funcionarios": [
+      "RIOS SAAVEDRA TIRSON JUNIOR"
+    ],
+    "direccion": "Av. Raimondi N° 500 (500-506)",
+    "latitud": -9.29276176197128,
+    "longitud": -76.0015840608806
+  },
+  {
+    "nombre": "GMG_VENTANILLA",
+    "region": "REGION 4",
+    "departamento": "Lima",
+    "provincia": "Callao",
+    "distrito": "Ventanilla",
+    "gerente": "SOTO RIOS ISAAC",
+    "funcionarios": [
+      "ANGEL ANTONIO ALVARADO TAIPE"
+    ],
+    "direccion": "URB. EX ZONA COMERCIAL E INDUSTRIAL Mz C5 Lote 18A",
+    "latitud": -11.8733135018732,
+    "longitud": -77.1273850471451
+  },
+  {
+    "nombre": "GMG_VILLA EL SALVADOR",
+    "region": "REGION 6",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Villa el Salvador",
+    "gerente": "CHAVEZ CONDORCHOA ANA BEATRIZ",
+    "funcionarios": [
+      "CAHUANA ZAPATA JORGE EDUARDO"
+    ],
+    "direccion": "AV. REVOLUCION 1770",
+    "latitud": -12.2090134416993,
+    "longitud": -76.9391932115019
+  },
+  {
+    "nombre": "GMG_VMT",
+    "region": "REGION 6",
+    "departamento": "Lima",
+    "provincia": "Lima",
+    "distrito": "Villa Maria del Triunfo",
+    "gerente": "BURGOS ARRUNATEGUI JULIO ALEJANDRO",
+    "funcionarios": [
+      "SOTO VILLEGAS FLOR DE MARIA ESTELA"
+    ],
+    "direccion": "Avenida Salvador Allende 784 (Asentamiento Humano Villa María del Triunfo Mz. G1, Lote 12, Sector Villa María del Triunfo),(Ref. cruce de Salvador Allende con Villa  Maria)",
+    "latitud": -12.1564932760794,
+    "longitud": -76.9594759759746
+  },
+  {
+    "nombre": "MOTO GO_JAEN",
+    "region": "REGION 2",
+    "departamento": "Jaen",
+    "provincia": "Jaen",
+    "distrito": "Jaen",
+    "gerente": "RAMIREZ TORRES GILMER",
+    "funcionarios": [
+      "YARLAQUE CAJUSOL JOSE ABEL",
+      "URIBE URBINA MARIA LOURDES"
+    ],
+    "direccion": "SEC. MORRO SOLAR AV. PAKAMUROS 110",
+    "latitud": -5.71255185612513,
+    "longitud": -78.8041830746544
+  },
+  {
     "nombre": "MOTOGO_CUSCO HONDA",
     "region": "REGION 7",
     "departamento": "Cusco",
@@ -1436,5 +1437,103 @@
     "direccion": "AV GARCILASO 505",
     "latitud": -13.5226852908578,
     "longitud": -71.9693948045849
+  },
+  {
+    "nombre": "MARCIMEX_CAJAMARCA",
+    "region": "REGION 3",
+    "departamento": "Cajamarca",
+    "provincia": "Cajamarca",
+    "distrito": "Cajamarca",
+    "gerente": "GARCIA CASTILLO EDGARDO ALEJANDRO",
+    "funcionarios": [
+      "HERNANDEZ TERAN JULIA ROSA"
+    ],
+    "direccion": "JR. APURIMAC 823",
+    "latitud": -7.15556022140892,
+    "longitud": -78.5186002450525
+  },
+  {
+    "nombre": "MARCIMEX_HUAMACHUCO",
+    "region": "REGION 3",
+    "departamento": "La Libertad",
+    "provincia": "Sanchez Carrion",
+    "distrito": "Huamachuco",
+    "gerente": "SERNAQUE DAVILA JOSE ALBERTO",
+    "funcionarios": [
+      "SAAVEDRA MORENO ANDY FRANK"
+    ],
+    "direccion": "Jr. Alfonso Ugarte N°644",
+    "latitud": -6.48958476346448,
+    "longitud": -76.3660061295088
+  },
+  {
+    "nombre": "MARCIMEX_ICA",
+    "region": "REGION 6",
+    "departamento": "Ica",
+    "provincia": "Ica",
+    "distrito": "Ica",
+    "gerente": "SUAREZ ROMERO DEYSY BRIYIX",
+    "funcionarios": [],
+    "direccion": "Calle Lima 463",
+    "latitud": -14.0649592164778,
+    "longitud": -75.7281561773855
+  },
+  {
+    "nombre": "MARCIMEX_PISCO",
+    "region": "REGION 6",
+    "departamento": "Ica",
+    "provincia": "Pisco",
+    "distrito": "Pisco",
+    "gerente": "ARAUCO REYES RANDY JOEL",
+    "funcionarios": [
+      "RODRIGUEZ GARCIA MICHEL AZUCENA",
+      "HERNANDEZ LOPEZ EDWIN MARTIN"
+    ],
+    "direccion": "Calle Zúñiga N° 100-106 (Ref. Cruce con la Calle Comercio/ por la plazuela Belén)\n",
+    "latitud": -13.7108413169666,
+    "longitud": -76.2036474463171
+  },
+  {
+    "nombre": "MARCIMEX_PUERTO MALDONADO",
+    "region": "REGION 7",
+    "departamento": "Madre de Dios",
+    "provincia": "Tambopata",
+    "distrito": "Tambopata",
+    "gerente": "ROLIN CUCHITINERI EDER ALEIXO",
+    "funcionarios": [
+      "CUTIPA VELA GLEMY NAHOMI"
+    ],
+    "direccion": "Av. León  Velarde 628 - 624 ",
+    "latitud": -12.5968253615946,
+    "longitud": -69.1797835283384
+  },
+  {
+    "nombre": "MARCIMEX_SULLANA",
+    "region": "REGION 1",
+    "departamento": "Piura",
+    "provincia": "Sullana",
+    "distrito": "Sullana",
+    "gerente": "PANTA SOSA LUIS ALBERTO",
+    "funcionarios": [
+      "GOMEZ NAVARRO MIRIAM SMITH"
+    ],
+    "direccion": "Calle San Martin 698",
+    "latitud": -4.89051900817667,
+    "longitud": -80.6866613638237
+  },
+  {
+    "nombre": "MARCIMEX_TRUJILLO",
+    "region": "REGION 3",
+    "departamento": "La Libertad",
+    "provincia": "Trujillo",
+    "distrito": "Trujillo",
+    "gerente": "GUTIERREZ PELAEZ GERARDO JUNIOR",
+    "funcionarios": [
+      "YUPANQUI SANDOVAL FREDIN FRANCISCO",
+      "CABALLERO VILLACORTA DANIEL HUMBERTO"
+    ],
+    "direccion": "CAL. BOLIVAR 726",
+    "latitud": -8.10992116202137,
+    "longitud": -79.0247409627634
   }
 ]
