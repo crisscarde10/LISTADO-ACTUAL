@@ -30,6 +30,73 @@
   top:0;
   z-index:20;
     }
+    .hero-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+  padding:28px 0 30px;
+}
+
+.hero-text{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.hero-title{
+  font-size:34px;
+  font-weight:800;
+  color:#fff;
+  line-height:1.15;
+}
+
+.hero-subtitle{
+  font-size:16px;
+  color:#ffe3e3;
+  font-weight:500;
+}
+
+.hero-counter{
+  background:rgba(255,255,255,.14);
+  border:1px solid rgba(255,255,255,.22);
+  border-radius:20px;
+  padding:14px 22px;
+  min-width:150px;
+  text-align:center;
+  color:#fff;
+}
+
+.hero-counter small{
+  display:block;
+  font-size:11px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  margin-bottom:6px;
+  color:#ffe3e3;
+  font-weight:700;
+}
+
+.hero-counter strong{
+  font-size:34px;
+  line-height:1;
+  font-weight:800;
+}
+
+@media (max-width: 720px){
+  .hero-top{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .hero-title{
+    font-size:26px;
+  }
+
+  .hero-counter{
+    width:100%;
+    max-width:180px;
+  }
     .container{
       max-width:1200px;
       margin:0 auto;
@@ -275,21 +342,18 @@
 </head>
 <body>
   <div class="topbar">
-    <div class="container header">
-      <div class="brand">
-        <div class="logo-wrap">
-          <img src="logo.png" alt="Logo" />
-        </div>
-        <div>
-          <div class="eyebrow">Directorio corporativo</div>
-        </div>
-      </div>
-      <div class="counter">
-        <small>Mostrando</small>
-        <strong id="visibleCount">0</strong>
-      </div>
+  <div class="container hero-top">
+    <div class="hero-text">
+      <div class="hero-title">ENCUENTRA TU TIENDA MÁS CERCANA 📍</div>
+      <div class="hero-subtitle">Directorio oficial de nuestras tiendas</div>
+    </div>
+
+    <div class="hero-counter">
+      <small>MOSTRANDO</small>
+      <strong id="visibleCount">0</strong>
     </div>
   </div>
+</div>
 
   <main class="container">
     <section class="hero">
