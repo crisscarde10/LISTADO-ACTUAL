@@ -44,11 +44,20 @@
     }
     .brand{display:flex;align-items:center;gap:16px}
     .logo-wrap{
-      width:100px;height:100px;border-radius:18px;background:var(--red);
-      display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(185,28,28,.18);
-      overflow:hidden;
+      width:90px;
+  height:90px;
+  border-radius:16px;
+  background:#fff; /* 👈 clave */
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 6px 16px rgba(0,0,0,.15);
+  overflow:hidden;
+  padding:10px;
     }
-    .logo-wrap img{width:72px;height:auto}
+    .logo-wrap img{width:100%;
+  height:auto;
+  object-fit:contain;}
     .eyebrow{
   font-size:12px;
   letter-spacing:.22em;
@@ -273,7 +282,6 @@
         </div>
         <div>
           <div class="eyebrow">Directorio corporativo</div>
-          <h1>Buscador de Tiendas</h1>
         </div>
       </div>
       <div class="counter">
