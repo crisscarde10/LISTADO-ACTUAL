@@ -23,12 +23,12 @@
       color:var(--text);
     }
     .topbar{
-      background:#fff;
-      border-bottom:1px solid var(--border);
-      box-shadow:0 1px 2px rgba(0,0,0,.05);
-      position:sticky;
-      top:0;
-      z-index:20;
+  background:#e31b23;
+  border-bottom:none;
+  box-shadow:none;
+  position:sticky;
+  top:0;
+  z-index:20;
     }
     .container{
       max-width:1200px;
@@ -36,13 +36,31 @@
       padding:0 24px;
     }
     .header{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:16px;
-      padding:16px 0;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:16px;
+  padding:28px 0;
     }
     .brand{display:flex;align-items:center;gap:16px}
+    .hero-text{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.hero-title{
+  font-size:34px;
+  font-weight:800;
+  color:#fff;
+  line-height:1.15;
+}
+
+.hero-subtitle{
+  font-size:16px;
+  color:#ffe3e3;
+  font-weight:500;
+}
     .logo-wrap{
       width:100px;height:100px;border-radius:18px;background:var(--red);
       display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(185,28,28,.18);
@@ -269,6 +287,13 @@
         <div class="hero-subtitle">Directorio oficial de nuestras tiendas</div>
       </div>
     </div>
+
+    <div class="counter">
+      <small>MOSTRANDO</small>
+      <strong id="visibleCount">0</strong>
+    </div>
+  </div>
+</div>
 
     <div class="counter">
       <small>MOSTRANDO</small>
