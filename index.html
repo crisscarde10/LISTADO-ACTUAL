@@ -23,80 +23,13 @@
       color:var(--text);
     }
     .topbar{
-  background:#e31b23; /* rojo CARSA */
-  border-bottom:none;
-  box-shadow:none;
-  position:sticky;
-  top:0;
-  z-index:20;
+      background:#fff;
+      border-bottom:1px solid var(--border);
+      box-shadow:0 1px 2px rgba(0,0,0,.05);
+      position:sticky;
+      top:0;
+      z-index:20;
     }
-    .hero-top{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:20px;
-  padding:28px 0 30px;
-}
-
-.hero-text{
-  display:flex;
-  flex-direction:column;
-  gap:8px;
-}
-
-.hero-title{
-  font-size:34px;
-  font-weight:800;
-  color:#fff;
-  line-height:1.15;
-}
-
-.hero-subtitle{
-  font-size:16px;
-  color:#ffe3e3;
-  font-weight:500;
-}
-
-.hero-counter{
-  background:rgba(255,255,255,.14);
-  border:1px solid rgba(255,255,255,.22);
-  border-radius:20px;
-  padding:14px 22px;
-  min-width:150px;
-  text-align:center;
-  color:#fff;
-}
-
-.hero-counter small{
-  display:block;
-  font-size:11px;
-  letter-spacing:.18em;
-  text-transform:uppercase;
-  margin-bottom:6px;
-  color:#ffe3e3;
-  font-weight:700;
-}
-
-.hero-counter strong{
-  font-size:34px;
-  line-height:1;
-  font-weight:800;
-}
-
-@media (max-width: 720px){
-  .hero-top{
-    flex-direction:column;
-    align-items:flex-start;
-  }
-
-  .hero-title{
-    font-size:26px;
-  }
-
-  .hero-counter{
-    width:100%;
-    max-width:180px;
-  }
     .container{
       max-width:1200px;
       margin:0 auto;
@@ -111,30 +44,20 @@
     }
     .brand{display:flex;align-items:center;gap:16px}
     .logo-wrap{
-      width:90px;
-  height:90px;
-  border-radius:16px;
-  background:#fff; /* 👈 clave */
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  box-shadow:0 6px 16px rgba(0,0,0,.15);
-  overflow:hidden;
-  padding:10px;
+      width:100px;height:100px;border-radius:18px;background:var(--red);
+      display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(185,28,28,.18);
+      overflow:hidden;
     }
-    .logo-wrap img{width:100%;
-  height:auto;
-  object-fit:contain;}
+    .logo-wrap img{width:72px;height:auto}
     .eyebrow{
-  font-size:12px;
-  letter-spacing:.22em;
-  text-transform:uppercase;
-  color:#ffdede;
-  font-weight:700;
-  margin-bottom:6px;
+      font-size:11px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--red);
+      font-weight:700;
+      margin-bottom:6px;
     }
-    h1{margin:0;font-size:30px;
-  color:#fff;}
+    h1{margin:0;font-size:30px}
     .counter{
       background:#fff5f5;
       color:var(--red-dark);
@@ -173,25 +96,22 @@
     .field label{
       display:block;
       margin:0 0 8px;
-     font-size:11px;
-  font-weight:600;
-  color:#6b7280;
-  text-transform:uppercase;
-  letter-spacing:0.5px;
+      font-size:13px;
+      font-weight:700;
+      color:#374151;
     }
     .field input{
-  width:100%;
-  border:1px solid #e5e7eb;
-  border-radius:10px;
-  padding:12px 14px;
-  font-size:14px;
-  outline:none;
-  background:white;
-  transition: all 0.2s ease;;
+      width:100%;
+      border:1px solid #d1d5db;
+      border-radius:16px;
+      padding:14px 16px;
+      font-size:15px;
+      outline:none;
+      background:white;
     }
     .field input:focus{
-  border-color:#ef4444;
-  box-shadow:0 0 0 2px rgba(239, 68, 68, 0.1);
+      border-color:var(--red);
+      box-shadow:0 0 0 4px rgba(185,28,28,.08);
     }
     .toolbar{
       display:flex;
@@ -342,18 +262,22 @@
 </head>
 <body>
   <div class="topbar">
-  <div class="container hero-top">
-    <div class="hero-text">
-      <div class="hero-title">ENCUENTRA TU TIENDA MÁS CERCANA 📍</div>
-      <div class="hero-subtitle">Directorio oficial de nuestras tiendas</div>
-    </div>
-
-    <div class="hero-counter">
-      <small>MOSTRANDO</small>
-      <strong id="visibleCount">0</strong>
+    <div class="container header">
+      <div class="brand">
+        <div class="logo-wrap">
+          <img src="logo.png" alt="Logo" />
+        </div>
+        <div>
+          <div class="eyebrow">Directorio corporativo</div>
+          <h1>Buscador de Tiendas</h1>
+        </div>
+      </div>
+      <div class="counter">
+        <small>Mostrando</small>
+        <strong id="visibleCount">0</strong>
+      </div>
     </div>
   </div>
-</div>
 
   <main class="container">
     <section class="hero">
@@ -361,12 +285,13 @@
       <h2>Consulta rápida de tiendas</h2>
       <p>
         Busca por departamento, provincia, distrito, nombre de tienda, gerente, funcionario o dirección.
+        La búsqueda reconoce mayúsculas, minúsculas y tildes sin afectar los resultados.
       </p>
 
       <div class="filters">
         <div class="field">
-        <label for="general">Buscar</label>
-<input id="general" type="text" placeholder="Buscar por tienda, nombre o departamento..." />
+          <label for="general">Búsqueda general</label>
+          <input id="general" type="text" placeholder="Tienda, gerente, funcionario o dirección" />
         </div>
         <div class="field">
           <label for="departamento">Departamento</label>
@@ -387,6 +312,7 @@
 
       <div class="toolbar">
         <button class="btn-dark" id="clearBtn">Limpiar filtros</button>
+        <div class="hint">Puedes buscar usando mayúsculas, minúsculas o tildes sin diferencia.</div>
       </div>
     </section>
 
@@ -555,4 +481,3 @@
 </footer>
 </body>
 </html>
-
