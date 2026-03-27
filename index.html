@@ -166,12 +166,20 @@
       gap:18px;
       margin:24px 0 36px;
     }
-    .card{
-     transform:translateY(-6px) scale(1.01);
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:26px;
+  padding:22px;
+  box-shadow:0 2px 6px rgba(0,0,0,.04);
+  transition:all 0.3s ease;
+}
+
+.card:hover{
+  transform:translateY(-6px) scale(1.01);
   box-shadow:0 14px 30px rgba(0,0,0,.12);
-    }
-    .card:hover{transform:translateY(-6px) scale(1.01);
-  box-shadow:0 14px 30px rgba(0,0,0,.12);}
+}
+
     .bubble{
       display:inline-flex;
       align-items:center;
