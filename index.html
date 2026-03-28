@@ -204,10 +204,11 @@
     }
     .store-title{margin:14px 0 0;font-size:22px;line-height:1.25}
     .block{
-      background:#f8fafc;
-      border-radius:18px;
-      padding:14px 16px;
-      margin-top:14px;
+      background:#f7f7fb;
+  border-radius:18px;
+  padding:14px 16px;
+  margin-top:14px;
+  border:1px solid #ececf3;
     }
     .label{
       font-size:11px;
@@ -241,17 +242,17 @@
       padding:12px;
     }
     .mini .k{
-      font-size:11px;
-      letter-spacing:.14em;
-      text-transform:uppercase;
-      color:#6b7280;
-      font-weight:700;
+      font-size:10px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:#6b7280;
+  font-weight:700;
     }
     .mini .v{
       margin-top:6px;
-      font-size:14px;
-      font-weight:700;
-      line-height:1.4;
+  font-size:14px;
+  font-weight:700;
+  color:#111827
     }
     .map-btn{
       display:inline-flex;
@@ -491,12 +492,12 @@
           <h3 class="store-title">${t.nombre || "Tienda sin nombre"}</h3>
 
           <div class="block">
-            <div class="label">Gerente de tienda</div>
+            <div class="label">👤 Gerente de tienda</div>
             <div class="value manager">${t.gerente || "No registrado"}</div>
           </div>
 
           <div class="block">
-            <div class="label">Funcionarios de tienda</div>
+            <div class="label">👥 Funcionarios de tienda</div>
             <div class="chips">
               ${funcionarios.length
                 ? funcionarios.map(f => `<span class="chip">${f}</span>`).join("")
@@ -505,7 +506,7 @@
           </div>
 
           <div class="block">
-            <div class="label">Dirección</div>
+            <div class="label">📍 Dirección</div>
             <div class="value">${t.direccion || "No registrada"}</div>
             <a class="map-btn" href="${href}" target="_blank" rel="noreferrer">📍 Ver ubicación</a>
           </div>
